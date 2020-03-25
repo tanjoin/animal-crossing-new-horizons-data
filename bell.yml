@@ -1,26 +1,26 @@
-- name: ざっそう
+ざっそう:
   bell: 10
-- name: ナシ
+ナシ:
   bell: 100
-- name: もくざい
+もくざい:
   bell: 60
-- name: かたいもくざい
+かたいもくざい:
   bell: 60
-- name: やわらかいもくざい
+やわらかいもくざい:
   bell: 60
-- name: きのえだ
+きのえだ:
   bell: 5
-- name: いし
+いし:
   bell: 75
-- name: ねんど
+ねんど:
   bell: 100
-- name: てっこうせき
+てっこうせき:
   bell: 375
-- name: スマホケースリメイクキット
+スマホケースリメイクキット:
   bell: 9000
-- name: ボーダーTシャツ
+ボーダーTシャツ:
   bell: 240
-- name: たかとびぼう
+たかとびぼう:
   profit:
     bell: 300
     rate: 2.0
@@ -28,7 +28,7 @@
   cost: 300
   material:
     - やわらかいもくざい: 5
-- name: パチンコ
+パチンコ:
   profit:
     bell: -75
     rate: 0.75
@@ -36,7 +36,7 @@
   cost: 300
   material:
     - かたいもくざい: 5
-- name: はっぱ
+はっぱ:
   profit:
     bell: 50
     rate: 2.0
@@ -44,9 +44,9 @@
     - ざっそう: 5
   cost: 50
   bell: 100
-- name: ダンボール
+ダンボール:
   bell: 30
-- name: ショボいスコップ
+ショボいスコップ:
   profit:
     bell: -100
     rate: 0.66666667
@@ -54,7 +54,7 @@
   cost: 300
   material: 
     - かたいもくざい: 5  
-- name: ショボいつりざお
+ショボいつりざお:
   profit:
     bell: 75
     rate: 4.0
@@ -62,7 +62,7 @@
   cost: 25
   material: 
     - きのえだ: 5
-- name: ショボいあみ
+ショボいあみ:
   profit:
     bell: 75
     rate: 4.0
@@ -70,7 +70,7 @@
   cost: 25
   material: 
     - きのえだ: 5
-- name: ショボいオノ
+ショボいオノ:
   profit: 
     bell: 100
     rate: 2.0
@@ -79,7 +79,7 @@
   material:
     - きのえだ: 5
     - いし: 1
-- name: はしご
+はしご:
   profit: 
     bell: 720
     rate: 2.0
@@ -89,7 +89,7 @@
     - もくざい: 4
     - かたいもくざい: 4
     - やわらかいもくざい: 4
-- name: オノ
+オノ:
   profit:
     bell: -30 
     rate: 0.95419847
@@ -99,7 +99,7 @@
     - ショボいオノ: 1
     - もくざい: 3
     - てっこうせき: 1
-- name: いしのオノ
+いしのオノ:
   profit:
     bell: 280
     rate: 2.0
@@ -108,7 +108,7 @@
   material:
     - ショボいオノ: 1
     - もくざい: 3    
-- name: つりざお
+つりざお:
   profit:
     bell: 200
     rate: 1.5
@@ -117,7 +117,7 @@
   material:
     - ショボいつりざお: 1
     - てっこうせき: 1
-- name: あみ
+あみ:
   profit:
     bell: 200
     rate: 1.5
@@ -126,7 +126,7 @@
   material:
     - ショボいあみ: 1
     - てっこうせき: 1
-- name: スコップ
+スコップ:
   profit:
     bell: -75
     rate: 0.88888889
@@ -135,3 +135,130 @@
   material:
     - ショボいスコップ: 1
     - てっこうせき: 1
+まるたのくい:
+  profit:
+    bell: 180
+    rate: 2.0
+  bell: 360
+  cost: 180
+  material:
+    - もくざい: 3
+もくぎょ:
+  profit:
+    bell: 180
+    rate: 2.0
+  bell: 360
+  cost: 180
+  material:
+    - もくざい: 3
+あかいパンジー:
+  bell: 40
+きいろいパンジー:
+  bell: 40
+しろいパンジー:
+  bell: 40
+パンジーのリース:
+  profit:
+    bell: 360
+    rate: 2.0
+  bell: 720
+  cost: 360
+  material:
+    - きいろいパンジー: 3
+    - しろいパンジー: 3
+    - あかいパンジー: 3
+ショボいジョウロ:
+  profit:
+    bell: -100
+    rate: 0.66666667
+  bell: 200
+  cost: 300
+  material:
+    - やわらかいもくざい: 5
+ジョウロ:
+  profit:
+    bell: -75
+    rate: 0.88888889
+  bell: 600
+  cost: 675
+  material:
+    - ショボいジョウロ: 1
+    - てっこうせき: 1
+たいまつ:
+  profit:
+    bell: 325
+    rate: 2.0
+  bell: 650
+  cost: 325
+  material:
+    - きのえだ: 5
+    - もくざい: 5
+たきび:
+  profit:
+    bell: 15
+    rate: 2.0
+  bell: 30
+  cost: 15
+  material:
+    - きのえだ: 3
+もくせいチェア:
+  profit:
+    bell: 360
+    rate: 2.0
+  bell: 720
+  cost: 360
+  material:
+    - もくざい: 6
+ほしくさのベット:
+  profit:
+    bell: 300
+    rate: 4.0
+  bell: 400
+  cost: 100
+  material:
+    - ざっそう: 20
+はっぱのかさ:
+  profit:
+    bell: 225
+    rate: 4.0
+  bell: 300
+  cost: 75
+  material:
+    - ざっそう: 15
+
+- name: ながしそうめん
+  profit:
+    bell:
+    rate:
+  bell: 3160
+  cost: 
+  material:
+    - はるのわかたけ: 7
+    - もくざい: 3
+
+- name: 
+  profit:
+    bell:
+    rate:
+  bell: 
+  cost: 
+  material:
+    - はるのわかたけ: 6
+
+- name: つまれたタイヤ
+  profit:
+    bell:
+    rate:
+  bell: 60
+  cost: 
+  material:
+    - タイヤ: 3
+    
+- name: タイヤのゆうぐ
+  profit:
+    bell:
+    rate:
+  bell: 
+  cost: 
+  material:
+    - タイヤ: 1
