@@ -209,7 +209,7 @@
   cost: 360
   material:
     - もくざい: 6
-ほしくさのベット:
+ほしくさのベッド:
   profit:
     bell: 300
     rate: 4.0
@@ -225,23 +225,30 @@
   cost: 75
   material:
     - ざっそう: 15
-
-- name: ながしそうめん
+はるのわかたけ:
+  bell: 200
+バンブー:
+  bell: 80
+オカリナ:
+  bell: 1000
+サカナのまきエサ:
+  bell: 200
+ながしそうめん:
   profit:
-    bell:
-    rate:
+    bell: 1580
+    rate: 2.0
   bell: 3160
-  cost: 
+  cost: 1580
   material:
     - はるのわかたけ: 7
     - もくざい: 3
 
-- name: 
+- name: しょいこ
   profit:
     bell:
     rate:
   bell: 
-  cost: 
+  cost: 1200
   material:
     - はるのわかたけ: 6
 
@@ -262,3 +269,13 @@
   cost: 
   material:
     - タイヤ: 1
+
+- name: ナシのベッド
+  profit:
+    bell:
+    rate:
+  bell: 
+  cost: 1360
+  material:
+    - ナシ: 10
+    - やわらかいもくざい: 6
