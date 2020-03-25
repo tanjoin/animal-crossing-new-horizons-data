@@ -1,0 +1,137 @@
+- name: ざっそう
+  bell: 10
+- name: ナシ
+  bell: 100
+- name: もくざい
+  bell: 60
+- name: かたいもくざい
+  bell: 60
+- name: やわらかいもくざい
+  bell: 60
+- name: きのえだ
+  bell: 5
+- name: いし
+  bell: 75
+- name: ねんど
+  bell: 100
+- name: てっこうせき
+  bell: 375
+- name: スマホケースリメイクキット
+  bell: 9000
+- name: ボーダーTシャツ
+  bell: 240
+- name: たかとびぼう
+  profit:
+    bell: 300
+    rate: 2.0
+  bell: 600
+  cost: 300
+  material:
+    - やわらかいもくざい: 5
+- name: パチンコ
+  profile:
+    bell: -75
+    rate: 0.75
+  bell: 225
+  cost: 300
+  material:
+    - かたいもくざい: 5
+- name: はっぱ
+  profit:
+    bell: 50
+    rate: 2.0
+  material:
+    - ざっそう: 5
+  cost: 50
+  bell: 100
+- name: ダンボール
+  bell: 30
+- name: ショボいスコップ
+  profit:
+    bell: -100
+    rate: 0.66666667
+  bell: 200
+  cost: 300
+  material: 
+    - かたいもくざい: 5  
+- name: ショボいつりざお
+  profit:
+    bell: 75
+    rate: 4.0
+  bell: 100
+  cost: 25
+  material: 
+    - きのえだ: 5
+- name: ショボいあみ
+  profit:
+    bell: 75
+    rate: 4.0
+  bell: 100
+  cost: 25
+  material: 
+    - きのえだ: 5
+- name: ショボいオノ
+  profit: 
+    bell: 100
+    rate: 2.0
+  bell: 200
+  cost: 100
+  material:
+    - きのえだ: 5
+    - いし: 1
+- name: はしご
+  profit: 
+    bell: 720
+    rate: 2.0
+  bell: 1440
+  cost: 720
+  material:
+    - もくざい: 4
+    - かたいもくざい: 4
+    - やわらかいもくざい: 4
+- name: オノ
+  profit:
+    bell: -30 
+    rate: 0.95419847
+  bell: 625
+  cost: 655
+  material:
+    - ショボいオノ: 1
+    - もくざい: 3
+    - てっこうせき: 1
+- name: いしのオノ
+  profit:
+    bell: 280
+    rate: 2.0
+  bell: 560
+  cost: 280
+  material:
+    - ショボいオノ: 1
+    - もくざい: 3    
+- name: つりざお
+  profit:
+    bell: 200
+    rate: 1.5
+  bell: 600
+  cost: 400
+  material:
+    - ショボいつりざお: 1
+    - てっこうせき: 1
+- name: あみ
+  profit:
+    bell: 200
+    rate: 1.5
+  bell: 600
+  cost: 400
+  material:
+    - ショボいあみ: 1
+    - てっこうせき: 1
+- name: スコップ
+  profit:
+    bell: -75
+    rate: 0.88888889
+  bell: 600
+  cost: 675
+  material:
+    - ショボいスコップ: 1
+    - てっこうせき: 1
