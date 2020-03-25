@@ -29,7 +29,7 @@
   material:
     - やわらかいもくざい: 5
 - name: パチンコ
-  profile:
+  profit:
     bell: -75
     rate: 0.75
   bell: 225
