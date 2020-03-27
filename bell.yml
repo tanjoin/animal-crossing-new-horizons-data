@@ -250,6 +250,8 @@
   cost: 900
   material:
     - かたいもくざい: 15
+パインざいフローリング:
+  bell: 625
 
 - name: しょいこ
   profit:
