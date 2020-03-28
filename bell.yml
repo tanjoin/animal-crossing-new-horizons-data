@@ -260,6 +260,16 @@
   cost: 180
   material:
     - もくざい: 3
+ココナッツジュース:
+  profit:
+    bell: 250
+    rate: 2.0
+  bell: 500
+  cost: 250
+  material:
+    - ヤシのみ: 1
+ヤシのみ:
+  bell: 250
 
 - name: しょいこ
   profit:
