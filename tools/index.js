@@ -152,7 +152,7 @@ result.sort((b, a) => {
 });
 
 try {
-  fs.writeFileSync('../bell2.yml', yaml.dump(result), 'utf8');
+  fs.writeFileSync('../bell.yml', yaml.dump(result), 'utf8');
 } catch (error) {
   if (error) {
     console.error(error.message);

@@ -1,213 +1,15 @@
-- name: タイヤのゆうぐ
-  bell: -1
-  material:
-    タイヤ: 1
-- name: タイヤ
-  bell: -1
-- name: きのえだ
-  bell: 5
-- name: ざっそう
-  bell: 10
-- name: ダンボール
-  bell: 30
-- name: あかいパンジー
-  bell: 40
-- name: きいろいパンジー
-  bell: 40
-- name: しろいパンジー
-  bell: 40
-- name: もくざい
-  bell: 60
-- name: かたいもくざい
-  bell: 60
-- name: やわらかいもくざい
-  bell: 60
-- name: タカラガイ
-  bell: 60
-- name: つまれたタイヤ
-  bell: 60
-  material:
-    タイヤ: 3
-- name: いし
-  bell: 75
-- name: バンブー
-  bell: 80
-- name: ナシ
+- name: ショボいつりざお
   bell: 100
-- name: ねんど
+  material:
+    きのえだ: 5
+  cost: 25
+  rate: 4
+- name: ショボいあみ
   bell: 100
-- name: オタマジャクシ
-  bell: 100
-- name: サンドダラー
-  bell: 120
-- name: カメムシ
-  bell: 120
-- name: ガ
-  bell: 130
-- name: モンキチョウ
-  bell: 160
-- name: エビスガイ
-  bell: 180
-- name: はるのわかたけ
-  bell: 200
-- name: サカナのまきエサ
-  bell: 200
-  material: {}
-- name: フナムシ
-  bell: 200
-- name: ボーダーTシャツ
-  bell: 240
-- name: ヤシのみ
-  bell: 250
-- name: コイ
-  bell: 300
-- name: ムカデ
-  bell: 300
-- name: ホネガイ
-  bell: 300
-- name: ボーンなドアプレート
-  bell: 360
-  material: {}
-- name: てっこうせき
-  bell: 375
-- name: スズキ
-  bell: 400
-- name: パインざいフローリング
-  bell: 625
-  material: {}
-- name: ヒラメ
-  bell: 800
-- name: オカリナ
-  bell: 1000
-  material: {}
-- name: ヤドカリ
-  bell: 1000
-- name: ジンメンカメムシ
-  bell: 1000
-- name: ハンミョウ
-  bell: 1500
-- name: パラサウロロフスのからだ
-  bell: 3000
-- name: モルフォチョウ
-  bell: 4000
-- name: タランチュラ
-  bell: 8000
-- name: スマホケースリメイクキット
-  bell: 9000
-- name: そぼくなもくせいのさく
-  bell: -1
-  quantity: 10
   material:
-    やわらかいもくざい: 6
-  cost: 360
-  rate: -0.027777777777777776
-- name: ラティス
-  bell: -1
-  quantity: 10
-  material:
-    やわらかいもくざい: 8
-  cost: 480
-  rate: -0.020833333333333332
-- name: ゆうしてっせん
-  bell: -1
-  quantity: 10
-  material:
-    かたいもくざい: 4
-    てっこうせき: 2
-  cost: 990
-  rate: -0.010101010101010102
-- name: わふうのさく
-  bell: -1
-  quantity: 10
-  material:
-    てっこうせき: 3
-    ねんど: 3
-    いし: 3
-  cost: 1650
-  rate: -0.006060606060606061
-- name: しょいこ
-  bell: -1
-  material:
-    はるのわかたけ: 6
-  cost: 1200
-  rate: -0.0008333333333333334
-- name: ちいさなDIYさぎょうだい
-  bell: -1
-  material:
-    もくざい: 3
-    かたいもくざい: 3
-    やわらかいもくざい: 3
-    てっこうせき: 2
-  cost: 1290
-  rate: -0.0007751937984496124
-- name: ショボいスコップ
-  bell: 200
-  material:
-    かたいもくざい: 5
-  cost: 300
-  rate: 0.6666666666666666
-- name: ショボいジョウロ
-  bell: 200
-  material:
-    やわらかいもくざい: 5
-  cost: 300
-  rate: 0.6666666666666666
-- name: パチンコ
-  bell: 225
-  material:
-    かたいもくざい: 5
-  cost: 300
-  rate: 0.75
-- name: オノ
-  bell: 625
-  material:
-    ショボいオノ: 1
-    もくざい: 3
-    てっこうせき: 1
-  cost: 755
-  rate: 0.8278145695364238
-- name: ナシのベッド
-  bell: 1360
-  material:
-    ナシ: 10
-    やわらかいもくざい: 6
-  cost: 1360
-  rate: 1
-- name: スコップ
-  bell: 600
-  material:
-    ショボいスコップ: 1
-    てっこうせき: 1
-  cost: 575
-  rate: 1.0434782608695652
-- name: ジョウロ
-  bell: 600
-  material:
-    ショボいジョウロ: 1
-    てっこうせき: 1
-  cost: 575
-  rate: 1.0434782608695652
-- name: つりざお
-  bell: 600
-  material:
-    ショボいつりざお: 1
-    てっこうせき: 1
-  cost: 475
-  rate: 1.263157894736842
-- name: あみ
-  bell: 600
-  material:
-    ショボいあみ: 1
-    てっこうせき: 1
-  cost: 475
-  rate: 1.263157894736842
-- name: いしのオノ
-  bell: 560
-  material:
-    ショボいオノ: 1
-    もくざい: 3
-  cost: 380
-  rate: 1.4736842105263157
+    きのえだ: 5
+  cost: 25
+  rate: 4
 - name: たかとびぼう
   bell: 600
   material:
@@ -369,15 +171,213 @@
     やわらかいもくざい: 4
   cost: 600
   rate: 2
-- name: ショボいつりざお
-  bell: 100
+- name: いしのオノ
+  bell: 560
   material:
-    きのえだ: 5
-  cost: 25
-  rate: 4
-- name: ショボいあみ
-  bell: 100
+    ショボいオノ: 1
+    もくざい: 3
+  cost: 380
+  rate: 1.4736842105263157
+- name: つりざお
+  bell: 600
   material:
-    きのえだ: 5
-  cost: 25
-  rate: 4
+    ショボいつりざお: 1
+    てっこうせき: 1
+  cost: 475
+  rate: 1.263157894736842
+- name: あみ
+  bell: 600
+  material:
+    ショボいあみ: 1
+    てっこうせき: 1
+  cost: 475
+  rate: 1.263157894736842
+- name: スコップ
+  bell: 600
+  material:
+    ショボいスコップ: 1
+    てっこうせき: 1
+  cost: 575
+  rate: 1.0434782608695652
+- name: ジョウロ
+  bell: 600
+  material:
+    ショボいジョウロ: 1
+    てっこうせき: 1
+  cost: 575
+  rate: 1.0434782608695652
+- name: ナシのベッド
+  bell: 1360
+  material:
+    ナシ: 10
+    やわらかいもくざい: 6
+  cost: 1360
+  rate: 1
+- name: オノ
+  bell: 625
+  material:
+    ショボいオノ: 1
+    もくざい: 3
+    てっこうせき: 1
+  cost: 755
+  rate: 0.8278145695364238
+- name: パチンコ
+  bell: 225
+  material:
+    かたいもくざい: 5
+  cost: 300
+  rate: 0.75
+- name: ショボいスコップ
+  bell: 200
+  material:
+    かたいもくざい: 5
+  cost: 300
+  rate: 0.6666666666666666
+- name: ショボいジョウロ
+  bell: 200
+  material:
+    やわらかいもくざい: 5
+  cost: 300
+  rate: 0.6666666666666666
+- name: ちいさなDIYさぎょうだい
+  bell: -1
+  material:
+    もくざい: 3
+    かたいもくざい: 3
+    やわらかいもくざい: 3
+    てっこうせき: 2
+  cost: 1290
+  rate: -0.0007751937984496124
+- name: しょいこ
+  bell: -1
+  material:
+    はるのわかたけ: 6
+  cost: 1200
+  rate: -0.0008333333333333334
+- name: わふうのさく
+  bell: -1
+  quantity: 10
+  material:
+    てっこうせき: 3
+    ねんど: 3
+    いし: 3
+  cost: 1650
+  rate: -0.006060606060606061
+- name: ゆうしてっせん
+  bell: -1
+  quantity: 10
+  material:
+    かたいもくざい: 4
+    てっこうせき: 2
+  cost: 990
+  rate: -0.010101010101010102
+- name: ラティス
+  bell: -1
+  quantity: 10
+  material:
+    やわらかいもくざい: 8
+  cost: 480
+  rate: -0.020833333333333332
+- name: そぼくなもくせいのさく
+  bell: -1
+  quantity: 10
+  material:
+    やわらかいもくざい: 6
+  cost: 360
+  rate: -0.027777777777777776
+- name: スマホケースリメイクキット
+  bell: 9000
+- name: タランチュラ
+  bell: 8000
+- name: モルフォチョウ
+  bell: 4000
+- name: パラサウロロフスのからだ
+  bell: 3000
+- name: ハンミョウ
+  bell: 1500
+- name: オカリナ
+  bell: 1000
+  material: {}
+- name: ヤドカリ
+  bell: 1000
+- name: ジンメンカメムシ
+  bell: 1000
+- name: ヒラメ
+  bell: 800
+- name: パインざいフローリング
+  bell: 625
+  material: {}
+- name: スズキ
+  bell: 400
+- name: てっこうせき
+  bell: 375
+- name: ボーンなドアプレート
+  bell: 360
+  material: {}
+- name: コイ
+  bell: 300
+- name: ムカデ
+  bell: 300
+- name: ホネガイ
+  bell: 300
+- name: ヤシのみ
+  bell: 250
+- name: ボーダーTシャツ
+  bell: 240
+- name: はるのわかたけ
+  bell: 200
+- name: サカナのまきエサ
+  bell: 200
+  material: {}
+- name: フナムシ
+  bell: 200
+- name: エビスガイ
+  bell: 180
+- name: モンキチョウ
+  bell: 160
+- name: ガ
+  bell: 130
+- name: サンドダラー
+  bell: 120
+- name: カメムシ
+  bell: 120
+- name: ナシ
+  bell: 100
+- name: ねんど
+  bell: 100
+- name: オタマジャクシ
+  bell: 100
+- name: バンブー
+  bell: 80
+- name: いし
+  bell: 75
+- name: もくざい
+  bell: 60
+- name: かたいもくざい
+  bell: 60
+- name: やわらかいもくざい
+  bell: 60
+- name: タカラガイ
+  bell: 60
+- name: つまれたタイヤ
+  bell: 60
+  material:
+    タイヤ: 3
+- name: あかいパンジー
+  bell: 40
+- name: きいろいパンジー
+  bell: 40
+- name: しろいパンジー
+  bell: 40
+- name: ダンボール
+  bell: 30
+- name: ざっそう
+  bell: 10
+- name: きのえだ
+  bell: 5
+- name: タイヤのゆうぐ
+  bell: -1
+  material:
+    タイヤ: 1
+- name: タイヤ
+  bell: -1
