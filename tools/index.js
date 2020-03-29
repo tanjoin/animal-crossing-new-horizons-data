@@ -127,7 +127,7 @@ for (let key in data) {
   }, data[key]));
 }
 
-result.sort((a, b) => {
+result.sort((b, a) => {
   if (a.rate && b.rate) {
     if (a.rate > b.rate) {
       return 1;
