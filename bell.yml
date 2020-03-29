@@ -282,6 +282,10 @@
   bell: 1000
 タカラガイ:
   bell: 60
+フナムシ:
+  bell: 200
+コイ:
+  bell: 300
 
 - name: しょいこ
   profit:
