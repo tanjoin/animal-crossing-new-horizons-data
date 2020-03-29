@@ -363,18 +363,78 @@
 
 わらぼしのさく:
   bell: 56
+  quantity: 10
+  cost:
+  material:
+    - ざっそう: 10
+    - もくざい: 3
+わふうのさく:
+  bell:
+  quantity: 10
+  cost: 
+  material: 
+    - てっこうせき: 3
+    - ねんど: 3
+    - いし: 3
 よこいたのさく:
+  profit: 
+    bell: 42
+    rate: 2.4
   bell: 72
+  quantity: 10
+  cost: 300
+  material:
+    - もくざい: 6
 ペグとロープ:
   bell: 300
+  quantity: 10
+  cost: 1500
+  material:
+    - てっこうせき: 4
 てつのさく:
   bell: 450
+  quantity: 10
+  cost: 2250
+  material:
+    - てっこうせき: 6
 たていたのさく:
   bell: 96
+  quantity: 10
+  cost: 480
+  material:
+    - もくざい: 8
 いしかべ:
   bell: 60
+  quantity: 10
+  cost: 300
+  material:
+    - いし: 4
 オリエンタルなさく:
   bell: 120
+  quantity: 10
+  cost: 600
+  material:
+    - もくざい: 6
+    - やわらかいもくざい: 4
+ゆうしてっせん:
+  bell: 
+  quantity: 10
+  cost: 990
+  material:
+    - かたいもくざい: 4
+    - てっこうせき: 2
+そぼくなもくせいのさく:
+  bell: 
+  quantity: 10
+  cost: 360
+  material:
+    - やわらかいもくざい: 6
+ラティス:
+  bell:
+  quantity: 10
+  cost: 480
+  material:
+    - やわらかいもくざい: 8
 ボーンなドアプレート:
   bell: 360
   material:
