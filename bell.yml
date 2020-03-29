@@ -301,7 +301,19 @@
   material:
     - かたいもくざい: 5
     - てっこうせき: 1
-    
+
+- name: ちいさなDIYさぎょうだい
+  profit: 
+    bell:
+    rate:
+  bell: 
+  cost: 1290
+  material:
+    - もくざい: 3
+    - かたいもくざい: 3
+    - やわらかいもくざい: 3
+    - てっこうせき: 2
+
 - name: しょいこ
   profit:
     bell:
