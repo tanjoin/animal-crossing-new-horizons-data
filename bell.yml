@@ -286,7 +286,22 @@
   bell: 200
 コイ:
   bell: 300
-
+オタマジャクシ:
+  bell: 100
+ムカデ: 
+  bell: 300
+ヒラメ:
+  bell: 800
+そぼくなDIYさぎょうだい:
+  profit:
+    bell: 675
+    rate: 2.0
+  bell: 1350
+  cost: 675
+  material:
+    - かたいもくざい: 5
+    - てっこうせき: 1
+    
 - name: しょいこ
   profit:
     bell:
