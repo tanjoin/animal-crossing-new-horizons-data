@@ -10,84 +10,6 @@
     きのえだ: 5
   cost: 25
   rate: 4
-- name: たかとびぼう
-  bell: 600
-  material:
-    やわらかいもくざい: 5
-  cost: 300
-  rate: 2
-- name: はっぱ
-  bell: 100
-  material:
-    ざっそう: 5
-  cost: 50
-  rate: 2
-- name: ショボいオノ
-  bell: 200
-  material:
-    きのえだ: 5
-    いし: 1
-  cost: 100
-  rate: 2
-- name: はしご
-  bell: 1440
-  material:
-    もくざい: 4
-    かたいもくざい: 4
-    やわらかいもくざい: 4
-  cost: 720
-  rate: 2
-- name: まるたのくい
-  bell: 360
-  material:
-    もくざい: 3
-  cost: 180
-  rate: 2
-- name: もくぎょ
-  bell: 360
-  material:
-    もくざい: 3
-  cost: 180
-  rate: 2
-- name: パンジーのリース
-  bell: 720
-  material:
-    きいろいパンジー: 3
-    しろいパンジー: 3
-    あかいパンジー: 3
-  cost: 360
-  rate: 2
-- name: たいまつ
-  bell: 650
-  material:
-    きのえだ: 5
-    もくざい: 5
-  cost: 325
-  rate: 2
-- name: たきび
-  bell: 30
-  material:
-    きのえだ: 3
-  cost: 15
-  rate: 2
-- name: もくせいチェア
-  bell: 720
-  material:
-    もくざい: 6
-  cost: 360
-  rate: 2
-- name: ほしくさのベッド
-  bell: 400
-  material:
-    ざっそう: 20
-  cost: 200
-  rate: 2
-- name: はっぱのかさ
-  bell: 300
-  material:
-    ざっそう: 15
-  cost: 150
-  rate: 2
 - name: ながしそうめん
   bell: 3160
   material:
@@ -101,17 +23,13 @@
     かたいもくざい: 15
   cost: 900
   rate: 2
-- name: にくきゅうのドアプレート
-  bell: 360
+- name: はしご
+  bell: 1440
   material:
-    もくざい: 3
-  cost: 180
-  rate: 2
-- name: ココナッツジュース
-  bell: 500
-  material:
-    ヤシのみ: 1
-  cost: 250
+    もくざい: 4
+    かたいもくざい: 4
+    やわらかいもくざい: 4
+  cost: 720
   rate: 2
 - name: そぼくなDIYさぎょうだい
   bell: 1350
@@ -119,6 +37,125 @@
     かたいもくざい: 5
     てっこうせき: 1
   cost: 675
+  rate: 2
+- name: パンジーのリース
+  bell: 720
+  material:
+    きいろいパンジー: 3
+    しろいパンジー: 3
+    あかいパンジー: 3
+  cost: 360
+  rate: 2
+- name: もくせいチェア
+  bell: 720
+  material:
+    もくざい: 6
+  cost: 360
+  rate: 2
+- name: たいまつ
+  bell: 650
+  material:
+    きのえだ: 5
+    もくざい: 5
+  cost: 325
+  rate: 2
+- name: たかとびぼう
+  bell: 600
+  material:
+    やわらかいもくざい: 5
+  cost: 300
+  rate: 2
+- name: ココナッツジュース
+  bell: 500
+  material:
+    ヤシのみ: 1
+  cost: 250
+  rate: 2
+- name: てつのさく
+  bell: 450
+  quantity: 10
+  material:
+    てっこうせき: 6
+  cost: 2250
+  rate: 2
+- name: ほしくさのベッド
+  bell: 400
+  material:
+    ざっそう: 20
+  cost: 200
+  rate: 2
+- name: まるたのくい
+  bell: 360
+  material:
+    もくざい: 3
+  cost: 180
+  rate: 2
+- name: もくぎょ
+  bell: 360
+  material:
+    もくざい: 3
+  cost: 180
+  rate: 2
+- name: にくきゅうのドアプレート
+  bell: 360
+  material:
+    もくざい: 3
+  cost: 180
+  rate: 2
+- name: はっぱのかさ
+  bell: 300
+  material:
+    ざっそう: 15
+  cost: 150
+  rate: 2
+- name: ペグとロープ
+  bell: 300
+  quantity: 10
+  material:
+    てっこうせき: 4
+  cost: 1500
+  rate: 2
+- name: ショボいオノ
+  bell: 200
+  material:
+    きのえだ: 5
+    いし: 1
+  cost: 100
+  rate: 2
+- name: オリエンタルなさく
+  bell: 120
+  quantity: 10
+  material:
+    もくざい: 6
+    やわらかいもくざい: 4
+  cost: 600
+  rate: 2
+- name: はっぱ
+  bell: 100
+  material:
+    ざっそう: 5
+  cost: 50
+  rate: 2
+- name: たていたのさく
+  bell: 96
+  quantity: 10
+  material:
+    もくざい: 8
+  cost: 480
+  rate: 2
+- name: よこいたのさく
+  bell: 72
+  quantity: 10
+  material:
+    もくざい: 6
+  cost: 360
+  rate: 2
+- name: いしかべ
+  bell: 60
+  quantity: 10
+  material:
+    いし: 4
+  cost: 300
   rate: 2
 - name: わらぼしのさく
   bell: 56
@@ -128,48 +165,11 @@
     もくざい: 3
   cost: 280
   rate: 2
-- name: よこいたのさく
-  bell: 72
-  quantity: 10
+- name: たきび
+  bell: 30
   material:
-    もくざい: 6
-  cost: 360
-  rate: 2
-- name: ペグとロープ
-  bell: 300
-  quantity: 10
-  material:
-    てっこうせき: 4
-  cost: 1500
-  rate: 2
-- name: てつのさく
-  bell: 450
-  quantity: 10
-  material:
-    てっこうせき: 6
-  cost: 2250
-  rate: 2
-- name: たていたのさく
-  bell: 96
-  quantity: 10
-  material:
-    もくざい: 8
-  cost: 480
-  rate: 2
-- name: いしかべ
-  bell: 60
-  quantity: 10
-  material:
-    いし: 4
-  cost: 300
-  rate: 2
-- name: オリエンタルなさく
-  bell: 120
-  quantity: 10
-  material:
-    もくざい: 6
-    やわらかいもくざい: 4
-  cost: 600
+    きのえだ: 3
+  cost: 15
   rate: 2
 - name: いしのオノ
   bell: 560

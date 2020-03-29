@@ -132,7 +132,13 @@ result.sort((b, a) => {
     if (a.rate > b.rate) {
       return 1;
     } else if (a.rate === b.rate) {
-      return 0;
+      if (a.bell > b.bell) {
+        return 1;
+      } else if (a.bell === b.bell) {
+        return 0;
+      } else {
+        return -1;
+      }
     } else {
       return -1;
     }
