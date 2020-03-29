@@ -377,5 +377,10 @@
   bell: 120
 ボーンなドアプレート:
   bell: 360
-  material:と
   material:
+パラサウロロフスのからだ:
+  bell: 3000
+スズキ:
+  bell: 400
+ガ:
+  bell: 130
