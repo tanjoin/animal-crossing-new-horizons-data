@@ -307,6 +307,8 @@
 - name: パインざいフローリング
   bell: 625
   material: {}
+- name: サンゴ
+  bell: 500
 - name: スズキ
   bell: 400
 - name: てっこうせき
