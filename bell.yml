@@ -319,6 +319,8 @@
   bell: 9000
 - name: タランチュラ
   bell: 8000
+- name: プテラノドンのさよく
+  bell: 4500
 - name: モルフォチョウ
   bell: 4000
 - name: オオイワナ
@@ -361,11 +363,17 @@
   bell: 300
 - name: イエローパーチ
   bell: 300
+- name: ナシのき
+  bell: 300
 - name: ヤシのみ
   bell: 250
 - name: カタツムリ
   bell: 250
+- name: たけのこ
+  bell: 250
 - name: ボーダーTシャツ
+  bell: 240
+- name: こうようじゅ
   bell: 240
 - name: はるのわかたけ
   bell: 200
@@ -391,6 +399,8 @@
 - name: オタマジャクシ
   bell: 100
 - name: アサリ
+  bell: 100
+- name: かせき
   bell: 100
 - name: バンブー
   bell: 80
