@@ -150,6 +150,12 @@
     もくざい: 6
   cost: 360
   rate: 2
+- name: つまれたタイヤ
+  bell: 60
+  material:
+    タイヤ: 3
+  cost: 30
+  rate: 2
 - name: いしかべ
   bell: 60
   quantity: 10
@@ -170,6 +176,12 @@
   material:
     きのえだ: 3
   cost: 15
+  rate: 2
+- name: タイヤのゆうぐ
+  bell: 20
+  material:
+    タイヤ: 1
+  cost: 10
   rate: 2
 - name: いしのオノ
   bell: 560
@@ -291,6 +303,8 @@
   bell: 8000
 - name: モルフォチョウ
   bell: 4000
+- name: オオイワナ
+  bell: 3800
 - name: パラサウロロフスのからだ
   bell: 3000
 - name: ハンミョウ
@@ -302,8 +316,14 @@
   bell: 1000
 - name: ジンメンカメムシ
   bell: 1000
+- name: ヤマメ
+  bell: 1000
+- name: シャコガイ
+  bell: 900
 - name: ヒラメ
   bell: 800
+- name: ホラガイ
+  bell: 700
 - name: パインざいフローリング
   bell: 625
   material: {}
@@ -322,7 +342,11 @@
   bell: 300
 - name: ホネガイ
   bell: 300
+- name: イエローパーチ
+  bell: 300
 - name: ヤシのみ
+  bell: 250
+- name: カタツムリ
   bell: 250
 - name: ボーダーTシャツ
   bell: 240
@@ -349,6 +373,8 @@
   bell: 100
 - name: オタマジャクシ
   bell: 100
+- name: アサリ
+  bell: 100
 - name: バンブー
   bell: 80
 - name: いし
@@ -361,10 +387,6 @@
   bell: 60
 - name: タカラガイ
   bell: 60
-- name: つまれたタイヤ
-  bell: 60
-  material:
-    タイヤ: 3
 - name: あかいパンジー
   bell: 40
 - name: きいろいパンジー
@@ -375,11 +397,7 @@
   bell: 30
 - name: ざっそう
   bell: 10
+- name: タイヤ
+  bell: 10
 - name: きのえだ
   bell: 5
-- name: タイヤのゆうぐ
-  bell: -1
-  material:
-    タイヤ: 1
-- name: タイヤ
-  bell: -1
