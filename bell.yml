@@ -341,6 +341,12 @@
   bell: 700
 - name: パインざいフローリング
   bell: 625
+- name: えいしゃき
+  bell: 600
+  cost: 2400
+- name: ユッカ
+  bell: 525
+  cost: 2100
 - name: サンゴ
   bell: 500
 - name: スズキ
@@ -365,6 +371,9 @@
   bell: 200
 - name: フナムシ
   bell: 200
+- name: おこう
+  bell: 200
+  cost: 880
 - name: エビスガイ
   bell: 180
 - name: モンキチョウ
@@ -406,6 +415,8 @@
 - name: ざっそう
   bell: 10
 - name: タイヤ
+  bell: 10
+- name: ながぐつ
   bell: 10
 - name: きのえだ
   bell: 5
