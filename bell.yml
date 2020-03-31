@@ -32,10 +32,22 @@
     はるのわかたけ: 6
   cost: 1200
   rate: 2
+- name: ライトなバンブーラグ
+  bell: 2400
+  material:
+    はるのわかたけ: 6
+  cost: 1200
+  rate: 2
 - name: まるたのダイニングテーブル
   bell: 1800
   material:
     かたいもくざい: 15
+  cost: 900
+  rate: 2
+- name: よせぎのかべ
+  bell: 1800
+  material:
+    もくざい: 15
   cost: 900
   rate: 2
 - name: はしご
@@ -129,6 +141,15 @@
     やわらかいもくざい: 3
   cost: 180
   rate: 2
+- name: わふうのさく
+  bell: 330
+  quantity: 10
+  material:
+    てっこうせき: 3
+    ねんど: 3
+    いし: 3
+  cost: 1650
+  rate: 2
 - name: はっぱのかさ
   bell: 300
   material:
@@ -184,11 +205,32 @@
     もくざい: 8
   cost: 480
   rate: 2
+- name: ラティス
+  bell: 96
+  quantity: 10
+  material:
+    やわらかいもくざい: 8
+  cost: 480
+  rate: 2
 - name: よこいたのさく
   bell: 72
   quantity: 10
   material:
     もくざい: 6
+  cost: 360
+  rate: 2
+- name: そぼくなもくせいのさく
+  bell: 72
+  quantity: 10
+  material:
+    やわらかいもくざい: 6
+  cost: 360
+  rate: 2
+- name: まるたのさく
+  bell: 72
+  quantity: 10
+  material:
+    かたいもくざい: 6
   cost: 360
   rate: 2
 - name: つまれたタイヤ
@@ -292,29 +334,6 @@
     やわらかいもくざい: 5
   cost: 300
   rate: 0.6666666666666666
-- name: わふうのさく
-  bell: -1
-  quantity: 10
-  material:
-    てっこうせき: 3
-    ねんど: 3
-    いし: 3
-  cost: 1650
-  rate: -0.006060606060606061
-- name: ラティス
-  bell: -1
-  quantity: 10
-  material:
-    やわらかいもくざい: 8
-  cost: 480
-  rate: -0.020833333333333332
-- name: そぼくなもくせいのさく
-  bell: -1
-  quantity: 10
-  material:
-    やわらかいもくざい: 6
-  cost: 360
-  rate: -0.027777777777777776
 - name: スマホケースリメイクキット
   bell: 9000
 - name: タランチュラ
