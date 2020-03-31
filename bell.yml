@@ -17,6 +17,13 @@
     もくざい: 3
   cost: 1580
   rate: 2
+- name: ナシのクロゼット
+  bell: 2600
+  material:
+    ナシ: 10
+    もくざい: 5
+  cost: 1300
+  rate: 2
 - name: ちいさなDIYさぎょうだい
   bell: 2580
   material:
