@@ -155,6 +155,14 @@
     アサリ: 1
   cost: 100
   rate: 2
+- name: ゆうしてっせん
+  bell: 198
+  quantity: 10
+  material:
+    かたいもくざい: 4
+    てっこうせき: 2
+  cost: 990
+  rate: 2
 - name: オリエンタルなさく
   bell: 120
   quantity: 10
@@ -293,14 +301,6 @@
     いし: 3
   cost: 1650
   rate: -0.006060606060606061
-- name: ゆうしてっせん
-  bell: -1
-  quantity: 10
-  material:
-    かたいもくざい: 4
-    てっこうせき: 2
-  cost: 990
-  rate: -0.010101010101010102
 - name: ラティス
   bell: -1
   quantity: 10
@@ -319,6 +319,8 @@
   bell: 9000
 - name: タランチュラ
   bell: 8000
+- name: Tレックスのからだ
+  bell: 5500
 - name: プテラノドンのさよく
   bell: 4500
 - name: モルフォチョウ
@@ -327,6 +329,8 @@
   bell: 3800
 - name: パラサウロロフスのからだ
   bell: 3000
+- name: ユーステノプテロン
+  bell: 2000
 - name: ハンミョウ
   bell: 1500
 - name: ヤドカリ
@@ -334,6 +338,8 @@
 - name: ジンメンカメムシ
   bell: 1000
 - name: ヤマメ
+  bell: 1000
+- name: オオゴマダラ
   bell: 1000
 - name: シャコガイ
   bell: 900
@@ -371,9 +377,13 @@
   bell: 250
 - name: たけのこ
   bell: 250
+- name: ダンゴムシ
+  bell: 250
 - name: ボーダーTシャツ
   bell: 240
 - name: こうようじゅ
+  bell: 240
+- name: アゲハチョウ
   bell: 240
 - name: はるのわかたけ
   bell: 200
@@ -385,6 +395,8 @@
 - name: エビスガイ
   bell: 180
 - name: モンキチョウ
+  bell: 160
+- name: モンシロチョウ
   bell: 160
 - name: ガ
   bell: 130
