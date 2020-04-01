@@ -387,6 +387,8 @@
   bell: 400
 - name: てっこうせき
   bell: 375
+- name: ゴマダラカミキリ
+  bell: 350
 - name: コイ
   bell: 300
 - name: ムカデ
@@ -396,6 +398,8 @@
 - name: イエローパーチ
   bell: 300
 - name: ナシのき
+  bell: 300
+- name: アオスジアゲハ
   bell: 300
 - name: ヤシのみ
   bell: 250
@@ -418,6 +422,10 @@
 - name: おこう
   bell: 200
   cost: 880
+- name: ショウリョウバッタ
+  bell: 200
+- name: さくらのはなびら
+  bell: 200
 - name: エビスガイ
   bell: 180
 - name: モンキチョウ
