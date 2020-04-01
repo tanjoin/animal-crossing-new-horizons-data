@@ -353,6 +353,8 @@
   bell: 4000
 - name: オオイワナ
   bell: 3800
+- name: アーケロンのからだ
+  bell: 3500
 - name: パラサウロロフスのからだ
   bell: 3000
 - name: ユーステノプテロン
@@ -415,6 +417,8 @@
   bell: 240
 - name: アゲハチョウ
   bell: 240
+- name: ギンヤンマ
+  bell: 230
 - name: はるのわかたけ
   bell: 200
 - name: フナムシ
