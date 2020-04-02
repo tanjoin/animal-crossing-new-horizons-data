@@ -57,6 +57,12 @@
     もくざい: 15
   cost: 900
   rate: 2
+- name: イースターなテーブル
+  bell: 1600
+  material:
+    じめんのたまご: 4
+  cost: 800
+  rate: 2
 - name: はしご
   bell: 1440
   material:
@@ -71,6 +77,12 @@
     かたいもくざい: 5
     てっこうせき: 1
   cost: 675
+  rate: 2
+- name: たけのフロアスタンド
+  bell: 1280
+  material:
+    バンブー: 8
+  cost: 640
   rate: 2
 - name: オカリナ
   bell: 1000
@@ -219,6 +231,20 @@
     やわらかいもくざい: 8
   cost: 480
   rate: 2
+- name: たけがき
+  bell: 96
+  quantity: 10
+  material:
+    バンブー: 6
+  cost: 480
+  rate: 2
+- name: トゲトゲのさく
+  bell: 96
+  quantity: 10
+  material:
+    かたいもくざい: 8
+  cost: 480
+  rate: 2
 - name: よこいたのさく
   bell: 72
   quantity: 10
@@ -341,10 +367,17 @@
     やわらかいもくざい: 5
   cost: 300
   rate: 0.6666666666666666
+- name: そらとぶたまごのくつ
+  bell: -1
+  material:
+    そらとぶたまご: 2
+  cost: 400
+  rate: -0.0025
 - name: スマホケースリメイクキット
   bell: 9000
 - name: タランチュラ
   bell: 8000
+  レックス: 12000
 - name: Tレックスのからだ
   bell: 5500
 - name: プテラノドンのさよく
@@ -355,22 +388,30 @@
   bell: 3800
 - name: アーケロンのからだ
   bell: 3500
+- name: イグアノドンのからだ
+  bell: 3500
 - name: パラサウロロフスのからだ
   bell: 3000
 - name: ユーステノプテロン
+  bell: 2000
+- name: オフタルモサウルス
   bell: 2000
 - name: ハンミョウ
   bell: 1500
 - name: ヤドカリ
   bell: 1000
+  レックス: 1500
 - name: ジンメンカメムシ
   bell: 1000
+  レックス: 1500
 - name: ヤマメ
   bell: 1000
 - name: オオゴマダラ
   bell: 1000
 - name: シャコガイ
   bell: 900
+- name: スロップシンク
+  bell: 875
 - name: ヒラメ
   bell: 800
 - name: ホラガイ
@@ -429,6 +470,18 @@
 - name: ショウリョウバッタ
   bell: 200
 - name: さくらのはなびら
+  bell: 200
+- name: ウッディなたまご
+  bell: 200
+- name: そらとぶたまご
+  bell: 200
+- name: はっぱのたまご
+  bell: 200
+- name: いわのたまご
+  bell: 200
+- name: じめんのたまご
+  bell: 200
+- name: サカナのたまご
   bell: 200
 - name: エビスガイ
   bell: 180
