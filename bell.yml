@@ -384,6 +384,8 @@
   bell: 4500
 - name: モルフォチョウ
   bell: 4000
+- name: ステゴサウルスのしっぽ
+  bell: 4000
 - name: オオイワナ
   bell: 3800
 - name: アーケロンのからだ
@@ -528,6 +530,8 @@
 - name: オレンジのアネモネ
   bell: 40
 - name: あかいアネモネ
+  bell: 40
+- name: あかいアネモネのかぶ
   bell: 40
 - name: ダンボール
   bell: 30
