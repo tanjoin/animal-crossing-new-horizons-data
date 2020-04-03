@@ -63,6 +63,12 @@
     じめんのたまご: 4
   cost: 800
   rate: 2
+- name: イースターなランプ
+  bell: 1600
+  material:
+    ウッディなたまご: 4
+  cost: 800
+  rate: 2
 - name: はしご
   bell: 1440
   material:
@@ -84,11 +90,29 @@
     バンブー: 8
   cost: 640
   rate: 2
+- name: ウッディなたまごのふく
+  bell: 1200
+  material:
+    ウッディなたまご: 3
+  cost: 600
+  rate: 2
 - name: オカリナ
   bell: 1000
   material:
     ねんど: 5
   cost: 500
+  rate: 2
+- name: ウッディなたまごのから
+  bell: 800
+  material:
+    ウッディなたまご: 2
+  cost: 400
+  rate: 2
+- name: ウッディなたまごのくつ
+  bell: 800
+  material:
+    ウッディなたまご: 2
+  cost: 400
   rate: 2
 - name: パンジーのリース
   bell: 720
@@ -375,6 +399,8 @@
   rate: -0.0025
 - name: スマホケースリメイクキット
   bell: 9000
+- name: リュウグウノツカイ
+  bell: 9000
 - name: タランチュラ
   bell: 8000
   レックス: 12000
@@ -458,6 +484,8 @@
   bell: 250
 - name: ダンゴムシ
   bell: 250
+- name: ゴールドクレスト
+  bell: 250
 - name: ボーダーTシャツ
   bell: 240
 - name: こうようじゅ
@@ -497,6 +525,8 @@
   bell: 160
 - name: ガ
   bell: 130
+- name: ざぶとん
+  bell: 125
 - name: サンドダラー
   bell: 120
 - name: カメムシ
@@ -540,6 +570,8 @@
 - name: あかいパンジーのつぼみ
   bell: 40
 - name: きいろいパンジーのつぼみ
+  bell: 40
+- name: ピンクのラッピングペーパー
   bell: 40
 - name: ダンボール
   bell: 30
