@@ -667,6 +667,8 @@
   bell: 80
 - name: いし
   bell: 75
+- name: ノミ
+  bell: 70
 - name: もくざい
   bell: 60
 - name: かたいもくざい
