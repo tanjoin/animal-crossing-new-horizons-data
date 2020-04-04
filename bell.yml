@@ -10,6 +10,17 @@
     きのえだ: 5
   cost: 25
   rate: 4
+- name: イースターなゆか
+  bell: 4800
+  material:
+    じめんのたまご: 2
+    いわのたまご: 2
+    はっぱのたまご: 2
+    ウッディなたまご: 2
+    そらとぶたまご: 2
+    サカナのたまご: 2
+  cost: 2400
+  rate: 2
 - name: おはなみセット
   bell: 4000
   material:
@@ -30,6 +41,13 @@
     はるのわかたけ: 7
     もくざい: 3
   cost: 1580
+  rate: 2
+- name: ナシのベッド
+  bell: 2720
+  material:
+    ナシ: 10
+    やわらかいもくざい: 6
+  cost: 1360
   rate: 2
 - name: ナシのクロゼット
   bell: 2600
@@ -427,13 +445,6 @@
     てっこうせき: 1
   cost: 575
   rate: 1.0434782608695652
-- name: ナシのベッド
-  bell: 1360
-  material:
-    ナシ: 10
-    やわらかいもくざい: 6
-  cost: 1360
-  rate: 1
 - name: オノ
   bell: 625
   material:
@@ -463,6 +474,10 @@
 - name: えいしゃき
   bell: 600
   cost: 2400
+  rate: 0.25
+- name: いぐさのたたみ
+  bell: 550
+  cost: 2200
   rate: 0.25
 - name: ユッカ
   bell: 525
@@ -528,6 +543,8 @@
   bell: 3500
 - name: パラサウロロフスのからだ
   bell: 3000
+- name: スミロドンのあたま
+  bell: 2500
 - name: ユーステノプテロン
   bell: 2000
 - name: オフタルモサウルス
@@ -563,6 +580,8 @@
 - name: てっこうせき
   bell: 375
 - name: ゴマダラカミキリ
+  bell: 350
+- name: プロテインシェイカー
   bell: 350
 - name: コイ
   bell: 300
@@ -686,3 +705,5 @@
   bell: 10
 - name: きのえだ
   bell: 5
+- name: きいろいパンジーのくき
+  bell: -1
