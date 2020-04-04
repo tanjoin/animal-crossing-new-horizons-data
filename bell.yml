@@ -611,6 +611,10 @@
   bell: 240
 - name: アゲハチョウ
   bell: 240
+- name: ギンガムチェックのシャツ
+  bell: 240
+- name: うでカバーつきエプロン
+  bell: 240
 - name: ギンヤンマ
   bell: 230
 - name: ペットのごはん
@@ -639,6 +643,8 @@
   bell: 200
 - name: エビスガイ
   bell: 180
+- name: パーティーのかざり
+  bell: 162
 - name: モンキチョウ
   bell: 160
 - name: モンシロチョウ
