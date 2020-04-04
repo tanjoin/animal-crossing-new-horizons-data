@@ -28,7 +28,12 @@ let calcMaterial = (materials) => {
 };
 
 for (let key in data) {
-  let cost = calcMaterial(data[key].material);
+  let cost = null;
+  if (data[key].cost) {
+    cost = data[key].cost;
+  } else {
+    cost = calcMaterial(data[key].material);
+  }
   if (cost) {
     data[key].cost = cost;
     if (data[key].quantity) {

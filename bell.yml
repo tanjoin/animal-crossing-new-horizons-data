@@ -141,6 +141,12 @@
     そらとぶたまご: 3
   cost: 600
   rate: 2
+- name: じめんのたまごのふく
+  bell: 1200
+  material:
+    じめんのたまご: 3
+  cost: 600
+  rate: 2
 - name: オカリナ
   bell: 1000
   material:
@@ -157,6 +163,18 @@
   bell: 800
   material:
     ウッディなたまご: 2
+  cost: 400
+  rate: 2
+- name: じめんのたまごのから
+  bell: 800
+  material:
+    じめんのたまご: 2
+  cost: 400
+  rate: 2
+- name: じめんのたまごのくつ
+  bell: 800
+  material:
+    じめんのたまご: 2
   cost: 400
   rate: 2
 - name: パンジーのリース
@@ -436,6 +454,26 @@
     やわらかいもくざい: 5
   cost: 300
   rate: 0.6666666666666666
+- name: えいしゃき
+  bell: 600
+  cost: 2400
+  rate: 0.25
+- name: ユッカ
+  bell: 525
+  cost: 2100
+  rate: 0.25
+- name: ベルつきアラームクロック
+  bell: 300
+  cost: 1200
+  rate: 0.25
+- name: ぶんごうセット
+  bell: 162
+  cost: 650
+  rate: 0.24923076923076923
+- name: おこう
+  bell: 200
+  cost: 880
+  rate: 0.22727272727272727
 - name: ようふうのさく
   bell: 315
   material:
@@ -512,12 +550,6 @@
   bell: 700
 - name: パインざいフローリング
   bell: 625
-- name: えいしゃき
-  bell: 600
-  cost: 2400
-- name: ユッカ
-  bell: 525
-  cost: 2100
 - name: サンゴ
   bell: 500
 - name: スズキ
@@ -538,9 +570,6 @@
   bell: 300
 - name: アオスジアゲハ
   bell: 300
-- name: ベルつきアラームクロック
-  bell: 300
-  cost: 1200
 - name: ヤシのみ
   bell: 250
 - name: カタツムリ
@@ -563,9 +592,6 @@
   bell: 200
 - name: フナムシ
   bell: 200
-- name: おこう
-  bell: 200
-  cost: 880
 - name: ショウリョウバッタ
   bell: 200
 - name: さくらのはなびら
@@ -584,13 +610,12 @@
   bell: 200
 - name: エビスガイ
   bell: 180
-- name: ぶんごうセット
-  bell: 162
-  cost: 650
 - name: モンキチョウ
   bell: 160
 - name: モンシロチョウ
   bell: 160
+- name: もじキャップ
+  bell: 140
 - name: ガ
   bell: 130
 - name: ざぶとん
