@@ -10,6 +10,12 @@
     きのえだ: 5
   cost: 25
   rate: 4
+- name: おはなみセット
+  bell: 4000
+  material:
+    さくらのはなびら: 10
+  cost: 2000
+  rate: 2
 - name: ながしそうめん
   bell: 3160
   material:
@@ -43,6 +49,12 @@
   bell: 2400
   material:
     はるのわかたけ: 6
+  cost: 1200
+  rate: 2
+- name: さくらのポシェット
+  bell: 2400
+  material:
+    さくらのはなびら: 6
   cost: 1200
   rate: 2
 - name: まるたのダイニングテーブル
@@ -94,6 +106,12 @@
   bell: 1200
   material:
     ウッディなたまご: 3
+  cost: 600
+  rate: 2
+- name: イースターなウォールクロック
+  bell: 1200
+  material:
+    そらとぶたまご: 3
   cost: 600
   rate: 2
 - name: オカリナ
@@ -391,6 +409,19 @@
     やわらかいもくざい: 5
   cost: 300
   rate: 0.6666666666666666
+- name: ようふうのさく
+  bell: 315
+  material:
+    いし: 6
+    てっこうせき: 3
+  cost: 1575
+  rate: 0.2
+- name: レンガのかべ
+  bell: 120
+  material:
+    ねんど: 6
+  cost: 600
+  rate: 0.2
 - name: そらとぶたまごのくつ
   bell: -1
   material:
@@ -406,6 +437,8 @@
   レックス: 12000
 - name: Tレックスのからだ
   bell: 5500
+- name: ディプロドクスのしっぽ
+  bell: 5000
 - name: プテラノドンのさよく
   bell: 4500
 - name: ケツァルコアトルス
@@ -427,6 +460,8 @@
 - name: ユーステノプテロン
   bell: 2000
 - name: オフタルモサウルス
+  bell: 2000
+- name: スミロドンのからだ
   bell: 2000
 - name: ハンミョウ
   bell: 1500
