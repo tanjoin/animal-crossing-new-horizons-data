@@ -269,6 +269,12 @@
     てっこうせき: 4
   cost: 1500
   rate: 2
+- name: ダンボールテーブル
+  bell: 240
+  material:
+    ダンボール: 4
+  cost: 120
+  rate: 2
 - name: ショボいオノ
   bell: 200
   material:
@@ -588,6 +594,8 @@
   bell: 240
 - name: ギンヤンマ
   bell: 230
+- name: ペットのごはん
+  bell: 207
 - name: はるのわかたけ
   bell: 200
 - name: フナムシ
@@ -607,6 +615,8 @@
 - name: じめんのたまご
   bell: 200
 - name: サカナのたまご
+  bell: 200
+- name: イースターなドレッサーのDIYレシピ
   bell: 200
 - name: エビスガイ
   bell: 180
