@@ -1,10 +1,10 @@
-- name: ショボいつりざお
+- name: ショボいあみ
   bell: 100
   material:
     きのえだ: 5
   cost: 25
   rate: 4
-- name: ショボいあみ
+- name: ショボいつりざお
   bell: 100
   material:
     きのえだ: 5
@@ -65,22 +65,16 @@
     てっこうせき: 2
   cost: 1290
   rate: 2
-- name: しょいこ
-  bell: 2400
-  material:
-    はるのわかたけ: 6
-  cost: 1200
-  rate: 2
-- name: ライトなバンブーラグ
-  bell: 2400
-  material:
-    はるのわかたけ: 6
-  cost: 1200
-  rate: 2
 - name: さくらのポシェット
   bell: 2400
   material:
     さくらのはなびら: 6
+  cost: 1200
+  rate: 2
+- name: しょいこ
+  bell: 2400
+  material:
+    はるのわかたけ: 6
   cost: 1200
   rate: 2
 - name: せいろ
@@ -90,6 +84,12 @@
   cost: 1200
   rate: 2
 - name: たけのビックリばこ
+  bell: 2400
+  material:
+    はるのわかたけ: 6
+  cost: 1200
+  rate: 2
+- name: ライトなバンブーラグ
   bell: 2400
   material:
     はるのわかたけ: 6
@@ -147,10 +147,10 @@
     バンブー: 8
   cost: 640
   rate: 2
-- name: ウッディなたまごのふく
+- name: じめんのたまごのふく
   bell: 1200
   material:
-    ウッディなたまご: 3
+    じめんのたまご: 3
   cost: 600
   rate: 2
 - name: イースターなウォールクロック
@@ -159,10 +159,10 @@
     そらとぶたまご: 3
   cost: 600
   rate: 2
-- name: じめんのたまごのふく
+- name: ウッディなたまごのふく
   bell: 1200
   material:
-    じめんのたまご: 3
+    ウッディなたまご: 3
   cost: 600
   rate: 2
 - name: オカリナ
@@ -170,18 +170,6 @@
   material:
     ねんど: 5
   cost: 500
-  rate: 2
-- name: ウッディなたまごのから
-  bell: 800
-  material:
-    ウッディなたまご: 2
-  cost: 400
-  rate: 2
-- name: ウッディなたまごのくつ
-  bell: 800
-  material:
-    ウッディなたまご: 2
-  cost: 400
   rate: 2
 - name: じめんのたまごのから
   bell: 800
@@ -195,18 +183,30 @@
     じめんのたまご: 2
   cost: 400
   rate: 2
+- name: ウッディなたまごのから
+  bell: 800
+  material:
+    ウッディなたまご: 2
+  cost: 400
+  rate: 2
+- name: ウッディなたまごのくつ
+  bell: 800
+  material:
+    ウッディなたまご: 2
+  cost: 400
+  rate: 2
+- name: もくせいチェア
+  bell: 720
+  material:
+    もくざい: 6
+  cost: 360
+  rate: 2
 - name: パンジーのリース
   bell: 720
   material:
     きいろいパンジー: 3
     しろいパンジー: 3
     あかいパンジー: 3
-  cost: 360
-  rate: 2
-- name: もくせいチェア
-  bell: 720
-  material:
-    もくざい: 6
   cost: 360
   rate: 2
 - name: たいまつ
@@ -241,6 +241,18 @@
     ざっそう: 20
   cost: 200
   rate: 2
+- name: つみきのおもちゃ
+  bell: 360
+  material:
+    やわらかいもくざい: 3
+  cost: 180
+  rate: 2
+- name: にくきゅうのドアプレート
+  bell: 360
+  material:
+    もくざい: 3
+  cost: 180
+  rate: 2
 - name: まるたのくい
   bell: 360
   material:
@@ -248,12 +260,6 @@
   cost: 180
   rate: 2
 - name: もくぎょ
-  bell: 360
-  material:
-    もくざい: 3
-  cost: 180
-  rate: 2
-- name: にくきゅうのドアプレート
   bell: 360
   material:
     もくざい: 3
@@ -287,23 +293,35 @@
     てっこうせき: 4
   cost: 1500
   rate: 2
+- name: イースターなさく
+  bell: 240
+  quantity: 10
+  material:
+    じめんのたまご: 1
+    いわのたまご: 1
+    はっぱのたまご: 1
+    ウッディなたまご: 1
+    そらとぶたまご: 1
+    サカナのたまご: 1
+  cost: 1200
+  rate: 2
 - name: ダンボールテーブル
   bell: 240
   material:
     ダンボール: 4
   cost: 120
   rate: 2
+- name: サカナのまきエサ
+  bell: 200
+  material:
+    アサリ: 1
+  cost: 100
+  rate: 2
 - name: ショボいオノ
   bell: 200
   material:
     きのえだ: 5
     いし: 1
-  cost: 100
-  rate: 2
-- name: サカナのまきエサ
-  bell: 200
-  material:
-    アサリ: 1
   cost: 100
   rate: 2
 - name: ゆうしてっせん
@@ -328,25 +346,18 @@
     ざっそう: 5
   cost: 50
   rate: 2
-- name: たていたのさく
-  bell: 96
-  quantity: 10
-  material:
-    もくざい: 8
-  cost: 480
-  rate: 2
-- name: ラティス
-  bell: 96
-  quantity: 10
-  material:
-    やわらかいもくざい: 8
-  cost: 480
-  rate: 2
 - name: たけがき
   bell: 96
   quantity: 10
   material:
     バンブー: 6
+  cost: 480
+  rate: 2
+- name: たていたのさく
+  bell: 96
+  quantity: 10
+  material:
+    もくざい: 8
   cost: 480
   rate: 2
 - name: トゲトゲのさく
@@ -356,12 +367,12 @@
     かたいもくざい: 8
   cost: 480
   rate: 2
-- name: よこいたのさく
-  bell: 72
+- name: ラティス
+  bell: 96
   quantity: 10
   material:
-    もくざい: 6
-  cost: 360
+    やわらかいもくざい: 8
+  cost: 480
   rate: 2
 - name: そぼくなもくせいのさく
   bell: 72
@@ -377,11 +388,12 @@
     かたいもくざい: 6
   cost: 360
   rate: 2
-- name: つまれたタイヤ
-  bell: 60
+- name: よこいたのさく
+  bell: 72
+  quantity: 10
   material:
-    タイヤ: 3
-  cost: 30
+    もくざい: 6
+  cost: 360
   rate: 2
 - name: いしかべ
   bell: 60
@@ -389,6 +401,12 @@
   material:
     いし: 4
   cost: 300
+  rate: 2
+- name: つまれたタイヤ
+  bell: 60
+  material:
+    タイヤ: 3
+  cost: 30
   rate: 2
 - name: わらぼしのさく
   bell: 56
@@ -417,13 +435,6 @@
     もくざい: 3
   cost: 380
   rate: 1.4736842105263157
-- name: つりざお
-  bell: 600
-  material:
-    ショボいつりざお: 1
-    てっこうせき: 1
-  cost: 475
-  rate: 1.263157894736842
 - name: あみ
   bell: 600
   material:
@@ -431,17 +442,31 @@
     てっこうせき: 1
   cost: 475
   rate: 1.263157894736842
-- name: スコップ
+- name: つりざお
   bell: 600
   material:
-    ショボいスコップ: 1
+    ショボいつりざお: 1
     てっこうせき: 1
-  cost: 575
-  rate: 1.0434782608695652
+  cost: 475
+  rate: 1.263157894736842
+- name: つみきスツール
+  bell: 600
+  material:
+    つみきのおもちゃ: 1
+    やわらかいもくざい: 2
+  cost: 480
+  rate: 1.25
 - name: ジョウロ
   bell: 600
   material:
     ショボいジョウロ: 1
+    てっこうせき: 1
+  cost: 575
+  rate: 1.0434782608695652
+- name: スコップ
+  bell: 600
+  material:
+    ショボいスコップ: 1
     てっこうせき: 1
   cost: 575
   rate: 1.0434782608695652
@@ -459,16 +484,16 @@
     かたいもくざい: 5
   cost: 300
   rate: 0.75
-- name: ショボいスコップ
-  bell: 200
-  material:
-    かたいもくざい: 5
-  cost: 300
-  rate: 0.6666666666666666
 - name: ショボいジョウロ
   bell: 200
   material:
     やわらかいもくざい: 5
+  cost: 300
+  rate: 0.6666666666666666
+- name: ショボいスコップ
+  bell: 200
+  material:
+    かたいもくざい: 5
   cost: 300
   rate: 0.6666666666666666
 - name: ポップコーンマシン
@@ -483,11 +508,11 @@
   bell: 550
   cost: 2200
   rate: 0.25
-- name: ユッカ
+- name: ミシン
   bell: 525
   cost: 2100
   rate: 0.25
-- name: ミシン
+- name: ユッカ
   bell: 525
   cost: 2100
   rate: 0.25
@@ -560,17 +585,6 @@
     サカナのたまご: 1
   cost: 1200
   rate: -0.0008333333333333334
-- name: イースターなさく
-  bell: -1
-  material:
-    じめんのたまご: 1
-    いわのたまご: 1
-    はっぱのたまご: 1
-    ウッディなたまご: 1
-    そらとぶたまご: 1
-    サカナのたまご: 1
-  cost: 1200
-  rate: -0.0008333333333333334
 - name: そらとぶたまごのくつ
   bell: -1
   material:
@@ -595,17 +609,19 @@
   bell: 5500
 - name: ディプロドクスのしっぽ
   bell: 5000
-- name: プテラノドンのさよく
-  bell: 4500
 - name: ケツァルコアトルス
   bell: 4500
-- name: モルフォチョウ
-  bell: 4000
+- name: プテラノドンのさよく
+  bell: 4500
 - name: ステゴサウルスのしっぽ
+  bell: 4000
+- name: ディプロドクスのしっぽのさき
+  bell: 4000
+- name: ニシキゴイ
   bell: 4000
 - name: メガロケロスのひだりはんしん
   bell: 4000
-- name: ディプロドクスのしっぽのさき
+- name: モルフォチョウ
   bell: 4000
 - name: オオイワナ
   bell: 3800
@@ -613,27 +629,32 @@
   bell: 3500
 - name: イグアノドンのからだ
   bell: 3500
+- name: たい
+  bell: 3000
 - name: パラサウロロフスのからだ
   bell: 3000
+- name: バンブーフルート
+  bell: 2800
+  material: {}
 - name: スミロドンのあたま
   bell: 2500
-- name: ユーステノプテロン
-  bell: 2000
 - name: オフタルモサウルス
   bell: 2000
 - name: スミロドンのからだ
   bell: 2000
+- name: ユーステノプテロン
+  bell: 2000
 - name: ハンミョウ
   bell: 1500
-- name: ヤドカリ
+- name: オオゴマダラ
   bell: 1000
-  レックス: 1500
 - name: ジンメンカメムシ
   bell: 1000
   レックス: 1500
-- name: ヤマメ
+- name: ヤドカリ
   bell: 1000
-- name: オオゴマダラ
+  レックス: 1500
+- name: ヤマメ
   bell: 1000
 - name: シャコガイ
   bell: 900
@@ -647,6 +668,8 @@
   bell: 625
 - name: サンゴ
   bell: 500
+- name: ネコぐるま
+  bell: 475
 - name: スズキ
   bell: 400
 - name: てっこうせき
@@ -655,29 +678,29 @@
   bell: 350
 - name: プロテインシェイカー
   bell: 350
-- name: コイ
-  bell: 300
-- name: ムカデ
-  bell: 300
-- name: ホネガイ
+- name: アオスジアゲハ
   bell: 300
 - name: イエローパーチ
   bell: 300
+- name: コイ
+  bell: 300
 - name: ナシのき
   bell: 300
-- name: アオスジアゲハ
+- name: ホネガイ
   bell: 300
-- name: ヤシのみ
+- name: ムカデ
+  bell: 300
+- name: たけのこ
   bell: 250
 - name: カタツムリ
   bell: 250
-- name: たけのこ
+- name: ゴールドクレスト
   bell: 250
 - name: ダンゴムシ
   bell: 250
-- name: ゴールドクレスト
+- name: ヤシのみ
   bell: 250
-- name: ボーダーTシャツ
+- name: うでカバーつきエプロン
   bell: 240
 - name: こうようじゅ
   bell: 240
@@ -685,35 +708,35 @@
   bell: 240
 - name: ギンガムチェックのシャツ
   bell: 240
-- name: うでカバーつきエプロン
+- name: ボーダーTシャツ
   bell: 240
 - name: ギンヤンマ
   bell: 230
 - name: ペットのごはん
   bell: 207
-- name: はるのわかたけ
-  bell: 200
-- name: フナムシ
-  bell: 200
-- name: ショウリョウバッタ
+- name: いわのたまご
   bell: 200
 - name: さくらのはなびら
   bell: 200
-- name: ウッディなたまご
+- name: じめんのたまご
   bell: 200
 - name: そらとぶたまご
   bell: 200
 - name: はっぱのたまご
   bell: 200
-- name: いわのたまご
-  bell: 200
-- name: じめんのたまご
-  bell: 200
-- name: サカナのたまご
+- name: はるのわかたけ
   bell: 200
 - name: イースターなドレッサーのDIYレシピ
   bell: 200
 - name: イースターなリースのDIYレシピ
+  bell: 200
+- name: ウッディなたまご
+  bell: 200
+- name: サカナのたまご
+  bell: 200
+- name: ショウリョウバッタ
+  bell: 200
+- name: フナムシ
   bell: 200
 - name: エビスガイ
   bell: 180
@@ -729,19 +752,19 @@
   bell: 130
 - name: ざぶとん
   bell: 125
-- name: サンドダラー
-  bell: 120
 - name: カメムシ
   bell: 120
-- name: ナシ
+- name: サンドダラー
+  bell: 120
+- name: かせき
   bell: 100
 - name: ねんど
   bell: 100
-- name: オタマジャクシ
-  bell: 100
 - name: アサリ
   bell: 100
-- name: かせき
+- name: オタマジャクシ
+  bell: 100
+- name: ナシ
   bell: 100
 - name: バンブー
   bell: 80
@@ -749,31 +772,31 @@
   bell: 75
 - name: ノミ
   bell: 70
-- name: もくざい
-  bell: 60
 - name: かたいもくざい
+  bell: 60
+- name: もくざい
   bell: 60
 - name: やわらかいもくざい
   bell: 60
 - name: タカラガイ
   bell: 60
-- name: あかいパンジー
-  bell: 40
-- name: きいろいパンジー
-  bell: 40
-- name: しろいパンジー
-  bell: 40
-- name: しろいアネモネ
-  bell: 40
-- name: オレンジのアネモネ
-  bell: 40
 - name: あかいアネモネ
   bell: 40
 - name: あかいアネモネのかぶ
   bell: 40
+- name: あかいパンジー
+  bell: 40
 - name: あかいパンジーのつぼみ
   bell: 40
+- name: きいろいパンジー
+  bell: 40
 - name: きいろいパンジーのつぼみ
+  bell: 40
+- name: しろいアネモネ
+  bell: 40
+- name: しろいパンジー
+  bell: 40
+- name: オレンジのアネモネ
   bell: 40
 - name: ピンクのラッピングペーパー
   bell: 40
@@ -781,9 +804,9 @@
   bell: 30
 - name: ざっそう
   bell: 10
-- name: タイヤ
-  bell: 10
 - name: ながぐつ
+  bell: 10
+- name: タイヤ
   bell: 10
 - name: きのえだ
   bell: 5

@@ -15,7 +15,16 @@ let calcMaterial = (materials) => {
   let cost = 0;
   for (let name in materials) {
     let material = data[name];
+    if (!material) {
+      console.log('[material is not found]' + name);
+      return undefined;
+    }
+    if (!material.bell) {
+      console.log('[bell is undefined] ' + name );
+      return undefined;
+    }
     if (material.bell === -1) {
+      console.log('[bell is not found] ' + name );
       return undefined;
     }
     if (materials[name].material) {
