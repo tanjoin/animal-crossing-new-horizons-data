@@ -3,7 +3,11 @@ const fs   = require('fs');
 
 let data = JSON.parse(fs.readFileSync('data.json'));
 
-fs.writeFileSync('data.json', JSON.stringify(data, null, 2));
+const organized = {};
+Object.keys(data).sort().forEach((key) => {
+  organized[key] = data[key];
+});
+fs.writeFileSync('data.json', JSON.stringify(organized, null, 2));
 
 let result = [];
 
