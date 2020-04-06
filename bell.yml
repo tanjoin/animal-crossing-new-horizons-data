@@ -209,6 +209,12 @@
     ウッディなたまご: 3
   cost: 600
   rate: 2
+- name: サカナのたまごのふく
+  bell: 1200
+  material:
+    サカナのたまご: 3
+  cost: 600
+  rate: 2
 - name: オカリナ
   bell: 1000
   material:
@@ -239,6 +245,18 @@
     ウッディなたまご: 2
   cost: 400
   rate: 2
+- name: サカナのたまごのから
+  bell: 800
+  material:
+    サカナのたまご: 2
+  cost: 400
+  rate: 2
+- name: サカナのたまごのくつ
+  bell: 800
+  material:
+    サカナのたまご: 2
+  cost: 400
+  rate: 2
 - name: もくせいチェア
   bell: 720
   material:
@@ -264,6 +282,13 @@
   bell: 600
   material:
     やわらかいもくざい: 5
+  cost: 300
+  rate: 2
+- name: みどりのおちば
+  bell: 600
+  material:
+    はるのわかたけ: 1
+    ざっそう: 10
   cost: 300
   rate: 2
 - name: ココナッツジュース
@@ -552,15 +577,15 @@
   bell: 550
   cost: 2200
   rate: 0.25
+- name: スポットライト
+  bell: 525
+  cost: 2100
+  rate: 0.25
 - name: ミシン
   bell: 525
   cost: 2100
   rate: 0.25
 - name: ユッカ
-  bell: 525
-  cost: 2100
-  rate: 0.25
-- name: スポットライト
   bell: 525
   cost: 2100
   rate: 0.25
@@ -593,6 +618,18 @@
   bell: -1
   cost: 1900
   rate: -0.0005263157894736842
+- name: ノームのおきもの
+  bell: -1
+  cost: 1900
+  rate: -0.0005263157894736842
+- name: くまのチビちゃん
+  bell: -1
+  cost: 1800
+  rate: -0.0005555555555555556
+- name: しょるいのやま
+  bell: -1
+  cost: 1600
+  rate: -0.000625
 - name: そらとぶたまごのくつ
   bell: -1
   material:
@@ -680,6 +717,10 @@
   bell: 475
 - name: スズキ
   bell: 400
+- name: ドジョウ
+  bell: 400
+- name: ブラックバス
+  bell: 400
 - name: てっこうせき
   bell: 375
 - name: ゴマダラカミキリ
@@ -689,6 +730,8 @@
 - name: アオスジアゲハ
   bell: 300
 - name: イエローパーチ
+  bell: 300
+- name: カレイ
   bell: 300
 - name: コイ
   bell: 300
@@ -714,6 +757,8 @@
   bell: 240
 - name: アゲハチョウ
   bell: 240
+- name: ウグイ
+  bell: 240
 - name: ギンガムチェックのシャツ
   bell: 240
 - name: ボーダーTシャツ
@@ -727,6 +772,8 @@
 - name: さくらのはなびら
   bell: 200
 - name: じめんのたまご
+  bell: 200
+- name: そぼくなDIYさぎょうだいのDIYレシピ
   bell: 200
 - name: そらとぶたまご
   bell: 200
@@ -754,6 +801,8 @@
   bell: 160
 - name: モンシロチョウ
   bell: 160
+- name: アジ
+  bell: 150
 - name: もじキャップ
   bell: 140
 - name: ガ
