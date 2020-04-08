@@ -43,6 +43,13 @@
     サカナのたまご: 2
   cost: 2400
   rate: 2
+- name: さくらのじゅうたん
+  bell: 4400
+  material:
+    さくらのはなびら: 10
+    ざっそう: 20
+  cost: 2200
+  rate: 2
 - name: おはなみセット
   bell: 4000
   material:
@@ -56,6 +63,13 @@
     もくざい: 4
     ねんど: 4
   cost: 1640
+  rate: 2
+- name: さくらのウッドフローリング
+  bell: 3200
+  material:
+    さくらのはなびら: 5
+    もくざい: 10
+  cost: 1600
   rate: 2
 - name: ながしそうめん
   bell: 3160
@@ -289,6 +303,13 @@
   material:
     はるのわかたけ: 1
     ざっそう: 10
+  cost: 300
+  rate: 2
+- name: ナナメのみちしるべ
+  bell: 600
+  material:
+    かたいもくざい: 2
+    やわらかいもくざい: 3
   cost: 300
   rate: 2
 - name: ココナッツジュース
@@ -565,6 +586,10 @@
     かたいもくざい: 5
   cost: 300
   rate: 0.6666666666666666
+- name: ぼうえんきょう
+  cost: 5600
+  bell: 1400
+  rate: 0.25
 - name: ポップコーンマシン
   bell: 1225
   cost: 4900
@@ -588,6 +613,10 @@
 - name: ユッカ
   bell: 525
   cost: 2100
+  rate: 0.25
+- name: プロテインシェイカー
+  cost: 1400
+  bell: 350
   rate: 0.25
 - name: ベルつきアラームクロック
   bell: 300
@@ -614,6 +643,12 @@
     ねんど: 6
   cost: 600
   rate: 0.2
+- name: アイアンアーマー
+  bell: -1
+  material:
+    てっこうせき: 8
+  cost: 3000
+  rate: -0.0003333333333333333
 - name: ウォータービュー
   bell: -1
   cost: 1900
@@ -643,23 +678,17 @@
     やわらかいもくざい: 3
   cost: 300
   rate: -0.0033333333333333335
-- name: スマホケースリメイクキット
-  bell: 9000
 - name: リュウグウノツカイ
   bell: 9000
 - name: タランチュラ
   bell: 8000
   レックス: 12000
-- name: Tレックスのからだ
-  bell: 5500
 - name: ディプロドクスのしっぽ
   bell: 5000
-- name: ケツァルコアトルス
+- name: ディプロドクスのこし
   bell: 4500
 - name: プテラノドンのさよく
   bell: 4500
-- name: ステゴサウルスのしっぽ
-  bell: 4000
 - name: ディプロドクスのしっぽのさき
   bell: 4000
 - name: ニシキゴイ
@@ -668,78 +697,133 @@
   bell: 4000
 - name: モルフォチョウ
   bell: 4000
-- name: オオイワナ
-  bell: 3800
-- name: アーケロンのからだ
-  bell: 3500
-- name: イグアノドンのからだ
-  bell: 3500
-- name: たい
-  bell: 3000
+- name: スピノサウルスのあたま
+  bell: 4000
 - name: パラサウロロフスのからだ
   bell: 3000
 - name: バンブーフルート
   bell: 2800
   material: {}
-- name: スミロドンのあたま
-  bell: 2500
-- name: オフタルモサウルス
-  bell: 2000
-- name: スミロドンのからだ
-  bell: 2000
 - name: ユーステノプテロン
   bell: 2000
 - name: ハンミョウ
   bell: 1500
-- name: オオゴマダラ
-  bell: 1000
-- name: ジンメンカメムシ
-  bell: 1000
-  レックス: 1500
 - name: ヤドカリ
   bell: 1000
   レックス: 1500
 - name: ヤマメ
   bell: 1000
-- name: シャコガイ
-  bell: 900
-- name: スロップシンク
-  bell: 875
 - name: ヒラメ
   bell: 800
 - name: ホラガイ
   bell: 700
 - name: パインざいフローリング
   bell: 625
-- name: サンゴ
-  bell: 500
 - name: ネコぐるま
   bell: 475
-- name: スズキ
-  bell: 400
 - name: ドジョウ
   bell: 400
 - name: ブラックバス
   bell: 400
-- name: てっこうせき
-  bell: 375
-- name: ゴマダラカミキリ
-  bell: 350
-- name: プロテインシェイカー
-  bell: 350
-- name: アオスジアゲハ
-  bell: 300
-- name: イエローパーチ
-  bell: 300
-- name: カレイ
-  bell: 300
-- name: コイ
-  bell: 300
 - name: ナシのき
   bell: 300
 - name: ホネガイ
   bell: 300
 - name: ムカデ
+  bell: 300
+- name: ヤシのみ
+  bell: 250
+- name: ボーダーTシャツ
+  bell: 240
+- name: ペットのごはん
+  bell: 207
+- name: フナムシ
+  bell: 200
+- name: パーティーのかざり
+  bell: 162
+- name: モンキチョウ
+  bell: 160
+- name: モンシロチョウ
+  bell: 160
+- name: ナシ
+  bell: 100
+- name: バンブー
+  bell: 80
+- name: ノミ
+  bell: 70
+- name: ピンクのラッピングペーパー
+  bell: 40
+- name: ダンボール
+  bell: 30
+- name: ソーイングセット
+  cost: 420
+  rate: .nan
+- name: スマホケースリメイクキット
+  bell: 9000
+- name: アーケロンのからだ
+  bell: 3500
+- name: イグアノドンのからだ
+  bell: 3500
+- name: たい
+  bell: 3000
+- name: アオスジアゲハ
+  bell: 300
+- name: イエローパーチ
+  bell: 300
+- name: アゲハチョウ
+  bell: 240
+- name: ウグイ
+  bell: 240
+- name: イースターなドレッサーのDIYレシピ
+  bell: 200
+- name: アジ
+  bell: 150
+- name: もじキャップ
+  bell: 140
+- name: もくざい
+  bell: 60
+- name: せんめんだい
+  cost: 3300
+  rate: .nan
+- name: にだんベッド
+  cost: 5000
+  rate: .nan
+- name: Tレックスのからだ
+  bell: 5500
+- name: ケツァルコアトルスのうよく
+  bell: 5000
+- name: ケツァルコアトルス
+  bell: 4500
+- name: ステゴサウルスのしっぽ
+  bell: 4000
+- name: オオイワナ
+  bell: 3800
+- name: スミロドンのあたま
+  bell: 2500
+- name: オフタルモサウルス
+  bell: 2000
+- name: スミロドンのからだ
+  bell: 2000
+- name: オオゴマダラ
+  bell: 1000
+- name: ジンメンカメムシ
+  bell: 1000
+  レックス: 1500
+- name: シャコガイ
+  bell: 900
+- name: スロップシンク
+  bell: 875
+- name: サンゴ
+  bell: 500
+- name: スズキ
+  bell: 400
+- name: てっこうせき
+  bell: 375
+- name: ゴマダラカミキリ
+  bell: 350
+- name: カレイ
+  bell: 300
+- name: コイ
   bell: 300
 - name: たけのこ
   bell: 250
@@ -749,24 +833,14 @@
   bell: 250
 - name: ダンゴムシ
   bell: 250
-- name: ヤシのみ
-  bell: 250
 - name: うでカバーつきエプロン
   bell: 240
 - name: こうようじゅ
   bell: 240
-- name: アゲハチョウ
-  bell: 240
-- name: ウグイ
-  bell: 240
 - name: ギンガムチェックのシャツ
-  bell: 240
-- name: ボーダーTシャツ
   bell: 240
 - name: ギンヤンマ
   bell: 230
-- name: ペットのごはん
-  bell: 207
 - name: いわのたまご
   bell: 200
 - name: さくらのはなびら
@@ -781,30 +855,20 @@
   bell: 200
 - name: はるのわかたけ
   bell: 200
-- name: イースターなドレッサーのDIYレシピ
+- name: イースターなゆかのDIYレシピ
   bell: 200
 - name: イースターなリースのDIYレシピ
   bell: 200
 - name: ウッディなたまご
   bell: 200
+- name: キクのクッションのDIYレシピ
+  bell: 200
 - name: サカナのたまご
   bell: 200
 - name: ショウリョウバッタ
   bell: 200
-- name: フナムシ
-  bell: 200
 - name: エビスガイ
   bell: 180
-- name: パーティーのかざり
-  bell: 162
-- name: モンキチョウ
-  bell: 160
-- name: モンシロチョウ
-  bell: 160
-- name: アジ
-  bell: 150
-- name: もじキャップ
-  bell: 140
 - name: ガ
   bell: 130
 - name: ざぶとん
@@ -821,17 +885,9 @@
   bell: 100
 - name: オタマジャクシ
   bell: 100
-- name: ナシ
-  bell: 100
-- name: バンブー
-  bell: 80
 - name: いし
   bell: 75
-- name: ノミ
-  bell: 70
 - name: かたいもくざい
-  bell: 60
-- name: もくざい
   bell: 60
 - name: やわらかいもくざい
   bell: 60
@@ -855,10 +911,6 @@
   bell: 40
 - name: オレンジのアネモネ
   bell: 40
-- name: ピンクのラッピングペーパー
-  bell: 40
-- name: ダンボール
-  bell: 30
 - name: ざっそう
   bell: 10
 - name: ながぐつ
