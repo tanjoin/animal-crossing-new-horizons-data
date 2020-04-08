@@ -602,6 +602,10 @@
   bell: 550
   cost: 2200
   rate: 0.25
+- name: ブルーのモロッカンタイルゆか
+  bell: 525
+  cost: 2100
+  rate: 0.25
 - name: スポットライト
   bell: 525
   cost: 2100
@@ -697,9 +701,9 @@
   bell: 4000
 - name: モルフォチョウ
   bell: 4000
-- name: スピノサウルスのあたま
-  bell: 4000
 - name: パラサウロロフスのからだ
+  bell: 3000
+- name: ミイロタテハ
   bell: 3000
 - name: バンブーフルート
   bell: 2800
@@ -731,6 +735,8 @@
   bell: 300
 - name: ムカデ
   bell: 300
+- name: ダンゴムシ
+  bell: 250
 - name: ヤシのみ
   bell: 250
 - name: ボーダーTシャツ
@@ -764,8 +770,6 @@
   bell: 3500
 - name: イグアノドンのからだ
   bell: 3500
-- name: たい
-  bell: 3000
 - name: アオスジアゲハ
   bell: 300
 - name: イエローパーチ
@@ -790,14 +794,22 @@
   rate: .nan
 - name: Tレックスのからだ
   bell: 5500
+- name: Tレックスのしっぽ
+  bell: 5000
 - name: ケツァルコアトルスのうよく
   bell: 5000
 - name: ケツァルコアトルス
   bell: 4500
 - name: ステゴサウルスのしっぽ
   bell: 4000
+- name: スピノサウルスのあたま
+  bell: 4000
 - name: オオイワナ
   bell: 3800
+- name: たい
+  bell: 3000
+- name: スピノサウルスのしっぽ
+  bell: 2500
 - name: スミロドンのあたま
   bell: 2500
 - name: オフタルモサウルス
@@ -830,8 +842,6 @@
 - name: カタツムリ
   bell: 250
 - name: ゴールドクレスト
-  bell: 250
-- name: ダンゴムシ
   bell: 250
 - name: うでカバーつきエプロン
   bell: 240
