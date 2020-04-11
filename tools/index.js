@@ -42,6 +42,9 @@ let calcMaterial = (materials) => {
 
 for (let key in data) {
   let cost = null;
+  if (!data[key].bell || data[key].bell === -1) {
+    console.log('[bell is not found] ' + key);
+  }
   if (data[key].cost) {
     cost = data[key].cost;
   } else {
