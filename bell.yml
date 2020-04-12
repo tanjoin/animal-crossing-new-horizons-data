@@ -49,6 +49,17 @@
     サカナのたまご: 2
   cost: 2400
   rate: 2
+- name: イースターなアーチ
+  bell: 4800
+  material:
+    じめんのたまご: 2
+    いわのたまご: 2
+    はっぱのたまご: 2
+    ウッディなたまご: 2
+    そらとぶたまご: 2
+    サカナのたまご: 2
+  cost: 2400
+  rate: 2
 - name: わふうのはかいし
   bell: 4500
   material:
@@ -67,6 +78,14 @@
   material:
     さくらのはなびら: 10
   cost: 2000
+  rate: 2
+- name: いしがま
+  bell: 3820
+  material:
+    ねんど: 8
+    てっこうせき: 2
+    もくざい: 6
+  cost: 1910
   rate: 2
 - name: アイアンウッドワゴン
   bell: 3720
@@ -701,6 +720,17 @@
     てっこうせき: 10
   cost: 4950
   rate: -0.00020202020202020202
+- name: ぴょんたろうのおきあがりこぼし
+  bell: -1
+  material:
+    じめんのたまご: 4
+    いわのたまご: 4
+    はっぱのたまご: 4
+    ウッディなたまご: 4
+    そらとぶたまご: 4
+    サカナのたまご: 4
+  cost: 4800
+  rate: -0.00020833333333333335
 - name: アイアンクロゼット
   bell: -1
   material:
@@ -766,14 +796,6 @@
     タカラガイ: 1
   cost: 2060
   rate: -0.0004854368932038835
-- name: いしがま
-  bell: -1
-  material:
-    ねんど: 8
-    てっこうせき: 2
-    もくざい: 6
-  cost: 1910
-  rate: -0.0005235602094240838
 - name: ウォータービュー
   bell: -1
   cost: 1900
@@ -843,6 +865,18 @@
     てっこうせき: 2
   cost: 1350
   rate: -0.0007407407407407407
+- name: イースターなバスケット
+  bell: -1
+  material:
+    じめんのたまご: 1
+    いわのたまご: 1
+    はっぱのたまご: 1
+    ウッディなたまご: 1
+    そらとぶたまご: 1
+    サカナのたまご: 1
+  remarks: exchange
+  cost: 1200
+  rate: -0.0008333333333333334
 - name: イースターなベッド
   bell: -1
   material:
@@ -1030,6 +1064,12 @@
     サカナのたまご: 1
   cost: 600
   rate: -0.0016666666666666668
+- name: ナシのラグ
+  bell: -1
+  material:
+    ナシ: 6
+  cost: 600
+  rate: -0.0016666666666666668
 - name: もくせいのバケツ
   bell: -1
   material:
@@ -1127,6 +1167,13 @@
     はっぱのたまご: 2
   cost: 400
   rate: -0.0025
+- name: おくすり
+  bell: -1
+  material:
+    ハチのす: 1
+    ざっそう: 3
+  cost: 330
+  rate: -0.0030303030303030303
 - name: まるたのベンチ
   bell: -1
   material:
@@ -1165,6 +1212,11 @@
     ながぐつ: 2
   cost: 20
   rate: -0.05
+- name: ソーイングセット
+  cost: 420
+  rate: .nan
+- name: スマホケースリメイクキット
+  bell: 9000
 - name: リュウグウノツカイ
   bell: 9000
 - name: タランチュラ
@@ -1172,16 +1224,26 @@
   レックス: 12000
 - name: メガロケロスのみぎはんしん
   bell: 5500
+- name: ケツァルコアトルスのうよく
+  bell: 5000
 - name: ディプロドクスのあたま
   bell: 5000
 - name: ディプロドクスのしっぽ
   bell: 5000
+- name: ケツァルコアトルス
+  bell: 4500
+- name: ステゴサウルスのからだ
+  bell: 4500
 - name: ディプロドクスのこし
   bell: 4500
 - name: フタバサウルスのからだ
   bell: 4500
 - name: プテラノドンのさよく
   bell: 4500
+- name: ステゴサウルスのしっぽ
+  bell: 4000
+- name: スピノサウルスのあたま
+  bell: 4000
 - name: ディプロドクスのしっぽのさき
   bell: 4000
 - name: ニシキゴイ
@@ -1192,8 +1254,18 @@
   bell: 4000
 - name: モルフォチョウ
   bell: 4000
+- name: オオイワナ
+  bell: 3800
+- name: アーケロンのからだ
+  bell: 3500
+- name: イグアノドンのからだ
+  bell: 3500
 - name: メガセロプスのからだ
   bell: 3500
+- name: イグアナドンのからだ
+  bell: 3500
+- name: たい
+  bell: 3000
 - name: タイ
   bell: 3000
 - name: ディノニクスのあたま
@@ -1205,17 +1277,34 @@
 - name: バンブーフルート
   bell: 2800
   material: {}
+- name: スピノサウルスのしっぽ
+  bell: 2500
+- name: スミロドンのあたま
+  bell: 2500
 - name: パラサウロロフスのしっぽ
   bell: 2500
+- name: オフタルモサウルス
+  bell: 2000
+- name: スミロドンのからだ
+  bell: 2000
 - name: ユーステノプテロン
   bell: 2000
 - name: ハンミョウ
   bell: 1500
+- name: オオゴマダラ
+  bell: 1000
+- name: ジンメンカメムシ
+  bell: 1000
+  レックス: 1500
 - name: ヤドカリ
   bell: 1000
   レックス: 1500
 - name: ヤマメ
   bell: 1000
+- name: シャコガイ
+  bell: 900
+- name: スロップシンク
+  bell: 875
 - name: ヒラメ
   bell: 800
 - name: ホラガイ
@@ -1224,270 +1313,72 @@
   bell: 675
 - name: パインざいフローリング
   bell: 625
+- name: イカ
+  bell: 500
+- name: オレンジ
+  bell: 500
+- name: サンゴ
+  bell: 500
 - name: ミノカサゴ
   bell: 500
 - name: リンゴ
   bell: 500
 - name: ネコぐるま
   bell: 475
+- name: スズキ
+  bell: 400
 - name: ドジョウ
   bell: 400
 - name: ブラックバス
   bell: 400
+- name: ゴマダラカミキリ
+  bell: 350
+- name: アオスジアゲハ
+  bell: 300
+- name: イエローパーチ
+  bell: 300
+- name: カレイ
+  bell: 300
+- name: コイ
+  bell: 300
 - name: ナシのき
+  bell: 300
+- name: ハチのす
   bell: 300
 - name: ホネガイ
   bell: 300
 - name: ムカデ
   bell: 300
-- name: ダンゴムシ
-  bell: 250
-- name: ヤシのみ
-  bell: 250
-- name: ボーダーTシャツ
-  bell: 240
-- name: ペットのごはん
-  bell: 207
-- name: フナムシ
-  bell: 200
-- name: パーティーのかざり
-  bell: 162
-- name: マッスルタンクトップ
-  bell: 160
-- name: モンキチョウ
-  bell: 160
-- name: モンシロチョウ
-  bell: 160
-- name: ナシ
-  bell: 100
-- name: バンブー
-  bell: 80
-- name: ノミ
-  bell: 70
-- name: タカラガイ
-  bell: 60
-- name: ピンクのラッピングペーパー
-  bell: 40
-- name: ダンボール
-  bell: 30
-- name: タイヤ
-  bell: 10
-- name: ソーイングセット
-  cost: 420
-  rate: .nan
-- name: スマホケースリメイクキット
-  bell: 9000
-- name: アーケロンのからだ
-  bell: 3500
-- name: イグアノドンのからだ
-  bell: 3500
-- name: たい
-  bell: 3000
-- name: イカ
-  bell: 500
-- name: アオスジアゲハ
-  bell: 300
-- name: イエローパーチ
-  bell: 300
 - name: たけのこ
   bell: 250
-- name: アゲハチョウ
-  bell: 240
-- name: アジ
-  bell: 150
-- name: もじキャップ
-  bell: 140
-- name: アサリ
-  bell: 100
-- name: やわらかいもくざい
-  bell: 60
-- name: せんめんだい
-  cost: 3300
-  rate: .nan
-- name: にだんベッド
-  cost: 5000
-  rate: .nan
-- name: もくせいシングルベッド
-  もくざい: 18
-- name: Tレックスのからだ
-  bell: 5500
-- name: Tレックスのしっぽ
-  bell: 5000
-- name: ケツァルコアトルスのうよく
-  bell: 5000
-- name: ケツァルコアトルス
-  bell: 4500
-- name: ステゴサウルスのからだ
-  bell: 4500
-- name: ステゴサウルスのしっぽ
-  bell: 4000
-- name: スピノサウルスのあたま
-  bell: 4000
-- name: オオイワナ
-  bell: 3800
-- name: スピノサウルスのしっぽ
-  bell: 2500
-- name: スミロドンのあたま
-  bell: 2500
-- name: オフタルモサウルス
-  bell: 2000
-- name: スミロドンのからだ
-  bell: 2000
-- name: オオゴマダラ
-  bell: 1000
-- name: ジンメンカメムシ
-  bell: 1000
-  レックス: 1500
-- name: シャコガイ
-  bell: 900
-- name: スロップシンク
-  bell: 875
-- name: オレンジ
-  bell: 500
-- name: サンゴ
-  bell: 500
-- name: スズキ
-  bell: 400
-- name: てっこうせき
-  bell: 375
-- name: ゴマダラカミキリ
-  bell: 350
-- name: カレイ
-  bell: 300
-- name: コイ
-  bell: 300
 - name: カタツムリ
   bell: 250
 - name: ゴールドクレスト
   bell: 250
-- name: うでカバーつきエプロン
+- name: ダンゴムシ
+  bell: 250
+- name: ヤシのみ
+  bell: 250
+- name: アゲハチョウ
   bell: 240
-- name: こうようじゅ
-  bell: 240
-- name: ウグイ
-  bell: 240
-- name: ギンガムチェックのシャツ
-  bell: 240
-- name: ギンヤンマ
-  bell: 230
-- name: いわのたまご
-  bell: 200
-- name: さくらのはなびら
-  bell: 200
-- name: じめんのたまご
-  bell: 200
-- name: そぼくなDIYさぎょうだいのDIYレシピ
-  bell: 200
-- name: そらとぶたまご
-  bell: 200
-- name: はっぱのたまご
-  bell: 200
-- name: はるのわかたけ
-  bell: 200
-- name: まるたのベンチのDIYレシピ
-  bell: 200
 - name: イースターなゆかのDIYレシピ
-  bell: 200
-- name: イースターなクロゼットのDIYレシピ
-  bell: 200
-- name: イースターなドレッサーのDIYレシピ
-  bell: 200
-- name: イースターなライトガーランドのDIYレシピ
-  bell: 200
-- name: イースターなリースのDIYレシピ
-  bell: 200
-- name: ウッディなたまご
   bell: 200
 - name: キクのクッションのDIYレシピ
   bell: 200
-- name: サカナのたまご
-  bell: 200
-- name: ショウリョウバッタ
-  bell: 200
-- name: エビスガイ
-  bell: 180
+- name: アジ
+  bell: 150
+- name: もじキャップ
+  bell: 140
 - name: ガ
   bell: 130
-- name: ざぶとん
-  bell: 125
 - name: カメムシ
   bell: 120
-- name: サンドダラー
-  bell: 120
-- name: かせき
+- name: アサリ
   bell: 100
-- name: ねんど
-  bell: 100
-- name: オタマジャクシ
-  bell: 100
-- name: いし
-  bell: 75
-- name: かたいもくざい
+- name: やわらかいもくざい
   bell: 60
-- name: もくざい
-  bell: 60
-- name: あかいアネモネ
-  bell: 40
-- name: あかいアネモネのかぶ
-  bell: 40
-- name: あかいパンジー
-  bell: 40
-- name: あかいパンジーのつぼみ
-  bell: 40
-- name: きいろいパンジー
-  bell: 40
-- name: きいろいパンジーのつぼみ
-  bell: 40
-- name: しろいアネモネ
-  bell: 40
-- name: しろいパンジー
-  bell: 40
 - name: オレンジのアネモネ
   bell: 40
-- name: ざっそう
-  bell: 10
-- name: ながぐつ
-  bell: 10
-- name: きのえだ
-  bell: 5
-- name: あかいヒヤシンス
-  bell: -1
-- name: あきかんカリンバ
-  bell: -1
-  material:
-    あきカン: 1
-    もくざい: 1
-    てっこうせき: 1
-- name: あきカン
-  bell: -1
-- name: おおきなほしのかけら
-  bell: -1
-- name: おくすり
-  bell: -1
-  material:
-    ハチのす: 1
-    ざっそう: 3
-- name: おへやのゆか
-  bell: -1
-  material:
-    あきカン: 2
-    ながぐつ: 2
-    タイヤ: 2
-- name: かいがらのふんすい
-  bell: -1
-  シャコガイ: 5
-  いし: 3
-- name: きいろいキク
-  bell: -1
-- name: きいろいパンジーのくき
-  bell: -1
-- name: たにくしょくぶつ
-  bell: -1
-  material:
-    ざっそう: 10
-    あきカン: 1
-- name: ほしのかけら
-  bell: -1
 - name: ゆうじんうちゅうせん
   bell: -1
   material:
@@ -1509,6 +1400,165 @@
     おひつじざのかけら: 2
     きんこうせき: 1
     いし: 5
+- name: せんめんだい
+  cost: 3300
+  rate: .nan
+- name: にだんベッド
+  cost: 5000
+  rate: .nan
+- name: もくせいシングルベッド
+  もくざい: 18
+- name: エスプレッソマシン
+  bells: -1
+  cost: 5600
+  rate: .nan
+- name: Tレックスのからだ
+  bell: 5500
+- name: Tレックスのしっぽ
+  bell: 5000
+- name: てっこうせき
+  bell: 375
+- name: うでカバーつきエプロン
+  bell: 240
+- name: こうようじゅ
+  bell: 240
+- name: ウグイ
+  bell: 240
+- name: ギンガムチェックのシャツ
+  bell: 240
+- name: ボーダーTシャツ
+  bell: 240
+- name: ギンヤンマ
+  bell: 230
+- name: ペットのごはん
+  bell: 207
+- name: いわのたまご
+  bell: 200
+- name: さくらのはなびら
+  bell: 200
+- name: じめんのたまご
+  bell: 200
+- name: そぼくなDIYさぎょうだいのDIYレシピ
+  bell: 200
+- name: そらとぶたまご
+  bell: 200
+- name: はっぱのたまご
+  bell: 200
+- name: はるのわかたけ
+  bell: 200
+- name: まるたのベンチのDIYレシピ
+  bell: 200
+- name: イースターなクロゼットのDIYレシピ
+  bell: 200
+- name: イースターなドレッサーのDIYレシピ
+  bell: 200
+- name: イースターなライトガーランドのDIYレシピ
+  bell: 200
+- name: イースターなリースのDIYレシピ
+  bell: 200
+- name: ウッディなたまご
+  bell: 200
+- name: サカナのたまご
+  bell: 200
+- name: ショウリョウバッタ
+  bell: 200
+- name: フナムシ
+  bell: 200
+- name: エビスガイ
+  bell: 180
+- name: パーティーのかざり
+  bell: 162
+- name: マッスルタンクトップ
+  bell: 160
+- name: モンキチョウ
+  bell: 160
+- name: モンシロチョウ
+  bell: 160
+- name: ざぶとん
+  bell: 125
+- name: サンドダラー
+  bell: 120
+- name: かせき
+  bell: 100
+- name: ねんど
+  bell: 100
+- name: オタマジャクシ
+  bell: 100
+- name: ナシ
+  bell: 100
+- name: バンブー
+  bell: 80
+- name: いし
+  bell: 75
+- name: ノミ
+  bell: 70
+- name: かたいもくざい
+  bell: 60
+- name: もくざい
+  bell: 60
+- name: タカラガイ
+  bell: 60
+- name: あかいアネモネ
+  bell: 40
+- name: あかいアネモネのかぶ
+  bell: 40
+- name: あかいパンジー
+  bell: 40
+- name: あかいパンジーのつぼみ
+  bell: 40
+- name: きいろいパンジー
+  bell: 40
+- name: きいろいパンジーのつぼみ
+  bell: 40
+- name: しろいアネモネ
+  bell: 40
+- name: しろいパンジー
+  bell: 40
+- name: ピンクのラッピングペーパー
+  bell: 40
+- name: ダンボール
+  bell: 30
+- name: ざっそう
+  bell: 10
+- name: ながぐつ
+  bell: 10
+- name: タイヤ
+  bell: 10
+- name: きのえだ
+  bell: 5
+- name: あかいヒヤシンス
+  bell: -1
+- name: あきかんカリンバ
+  bell: -1
+  material:
+    あきカン: 1
+    もくざい: 1
+    てっこうせき: 1
+- name: あきカン
+  bell: -1
+- name: おおきなほしのかけら
+  bell: -1
+- name: おへやのゆか
+  bell: -1
+  material:
+    あきカン: 2
+    ながぐつ: 2
+    タイヤ: 2
+- name: かいがらのふんすい
+  bell: -1
+  シャコガイ: 5
+  いし: 3
+- name: きいろいキク
+  bell: -1
+- name: きいろいパンジーのくき
+  bell: -1
+- name: たにくしょくぶつ
+  bell: -1
+  material:
+    ざっそう: 10
+    あきカン: 1
+- name: ほしのかけら
+  bell: -1
 - name: キクのクッション
   bell: -1
   material:
@@ -1531,8 +1581,6 @@
   material:
     おおきなほしのかけら: 1
     ほしのかけら: 3
-- name: ハチのす
-  bell: -1
 - name: ヒヤシンスのかんむり
   bell: -1
   material:
