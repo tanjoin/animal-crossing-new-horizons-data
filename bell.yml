@@ -352,6 +352,18 @@
     じめんのたまご: 3
   cost: 600
   rate: 2
+- name: そらとぶたまごのふく
+  bell: 1200
+  material:
+    そらとぶたまご: 3
+  cost: 600
+  rate: 2
+- name: はっぱのたまごのふく
+  bell: 1200
+  material:
+    はっぱのたまご: 3
+  cost: 600
+  rate: 2
 - name: イースターなウォールクロック
   bell: 1200
   material:
@@ -432,6 +444,30 @@
   bell: 800
   material:
     じめんのたまご: 2
+  cost: 400
+  rate: 2
+- name: そらとぶたまごのから
+  bell: 800
+  material:
+    そらとぶたまご: 2
+  cost: 400
+  rate: 2
+- name: そらとぶたまごのくつ
+  bell: 800
+  material:
+    そらとぶたまご: 2
+  cost: 400
+  rate: 2
+- name: はっぱのたまごのかけら
+  bell: 800
+  material:
+    はっぱのたまご: 2
+  cost: 400
+  rate: 2
+- name: はっぱのたまごのくつ
+  bell: 800
+  material:
+    はっぱのたまご: 2
   cost: 400
   rate: 2
 - name: ウッディなたまごのから
@@ -1085,18 +1121,6 @@
     もくざい: 10
   cost: 630
   rate: -0.0015873015873015873
-- name: そらとぶたまごのふく
-  bell: -1
-  material:
-    そらとぶたまご: 3
-  cost: 600
-  rate: -0.0016666666666666668
-- name: はっぱのたまごのふく
-  bell: -1
-  material:
-    はっぱのたまご: 3
-  cost: 600
-  rate: -0.0016666666666666668
 - name: もくせいローテーブル
   bell: -1
   material:
@@ -1166,34 +1190,10 @@
     やわらかいもくざい: 5
   cost: 420
   rate: -0.002380952380952381
-- name: そらとぶたまごのから
-  bell: -1
-  material:
-    そらとぶたまご: 2
-  cost: 400
-  rate: -0.0025
-- name: そらとぶたまごのくつ
-  bell: -1
-  material:
-    そらとぶたまご: 2
-  cost: 400
-  rate: -0.0025
 - name: とうきのジャグ
   bell: -1
   material:
     ねんど: 4
-  cost: 400
-  rate: -0.0025
-- name: はっぱのたまごのかけら
-  bell: -1
-  material:
-    はっぱのたまご: 2
-  cost: 400
-  rate: -0.0025
-- name: はっぱのたまごのくつ
-  bell: -1
-  material:
-    はっぱのたまご: 2
   cost: 400
   rate: -0.0025
 - name: まるたのベンチ
