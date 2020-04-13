@@ -2,12 +2,14 @@
   bell: 100
   material:
     きのえだ: 5
+  price: 400
   cost: 25
   rate: 4
 - name: ショボいつりざお
   bell: 100
   material:
     きのえだ: 5
+  price: 400
   cost: 25
   rate: 4
 - name: ぴょんたろうのおきあがりこぼし
@@ -641,6 +643,7 @@
   material:
     きのえだ: 5
     いし: 1
+  price: 800
   cost: 100
   rate: 2
 - name: ゆうしてっせん
@@ -821,18 +824,21 @@
   bell: 225
   material:
     かたいもくざい: 5
+  price: 900
   cost: 300
   rate: 0.75
 - name: ショボいジョウロ
   bell: 200
   material:
     やわらかいもくざい: 5
+  price: 800
   cost: 300
   rate: 0.6666666666666666
 - name: ショボいスコップ
   bell: 200
   material:
     かたいもくざい: 5
+  price: 800
   cost: 300
   rate: 0.6666666666666666
 - name: オレンジのサイドテーブル
@@ -847,6 +853,7 @@
   material:
     ハチのす: 1
     ざっそう: 3
+  price: 400
   cost: 330
   rate: 0.30303030303030304
 - name: ようふうのさく
@@ -1228,6 +1235,8 @@
   bell: 4000
 - name: モルフォチョウ
   bell: 4000
+- name: クラッカー
+  price: 100
 - name: オオイワナ
   bell: 3800
 - name: アーケロンのからだ
@@ -1244,6 +1253,8 @@
   bell: 3000
 - name: ディノニクスのあたま
   bell: 3000
+- name: ヨナグニサン
+  bell: 3000
 - name: パラサウロロフスのからだ
   bell: 3000
 - name: ミイロタテハ
@@ -1257,8 +1268,12 @@
   bell: 2500
 - name: ハチ
   bell: 2500
+- name: カラスアゲハ
+  bell: 2500
 - name: パラサウロロフスのしっぽ
   bell: 2500
+- name: タマムシ
+  bell: 2400
 - name: オフタルモサウルス
   bell: 2000
 - name: スミロドンのからだ
@@ -1367,10 +1382,14 @@
   bell: 250
 - name: アゲハチョウ
   bell: 240
+- name: ギンガムチェックのシャツ
+  bell: 240
 - name: ひじょうぐち
   bell: 202
   price: 810
 - name: そぼくなDIYさぎょうだいのDIYレシピ
+  bell: 200
+- name: イースターなゆかのDIYレシピ
   bell: 200
 - name: アジ
   bell: 150
@@ -1427,6 +1446,9 @@
 - name: いぐさのたたみ
   bell: 550
   price: 2200
+- name: おにんぎょう
+  bell: 400
+  price: 1600
 - name: てっこうせき
   bell: 375
 - name: うでカバーつきエプロン
@@ -1434,8 +1456,6 @@
 - name: こうようじゅ
   bell: 240
 - name: ウグイ
-  bell: 240
-- name: ギンガムチェックのシャツ
   bell: 240
 - name: ボーダーTシャツ
   bell: 240
@@ -1459,8 +1479,6 @@
 - name: はるのわかたけ
   bell: 200
 - name: まるたのベンチのDIYレシピ
-  bell: 200
-- name: イースターなゆかのDIYレシピ
   bell: 200
 - name: イースターなクロゼットのDIYレシピ
   bell: 200
@@ -1514,6 +1532,7 @@
   bell: 100
 - name: ナシ
   bell: 100
+  price: 400
 - name: バンブー
   bell: 80
 - name: いし
