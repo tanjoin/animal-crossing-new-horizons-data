@@ -889,6 +889,10 @@
   bell: 525
   cost: 2100
   rate: 0.25
+- name: スライムランプ
+  bell: 375
+  cost: 1500
+  rate: 0.25
 - name: プロテインシェイカー
   cost: 1400
   bell: 350
@@ -897,6 +901,14 @@
   bell: 300
   cost: 1200
   rate: 0.25
+- name: ひじょうぐち
+  bell: 202
+  cost: 810
+  rate: 0.24938271604938272
+- name: あおいみずたまのかさ
+  bell: 187
+  cost: 750
+  rate: 0.24933333333333332
 - name: ぶんごうセット
   bell: 162
   cost: 650
