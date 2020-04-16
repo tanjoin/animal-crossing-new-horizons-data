@@ -534,6 +534,12 @@
     やわらかいもくざい: 5
   cost: 300
   rate: 2
+- name: まるたのベンチ
+  bell: 600
+  material:
+    かたいもくざい: 5
+  cost: 300
+  rate: 2
 - name: みどりのおちば
   bell: 600
   material:
@@ -1153,12 +1159,6 @@
     ねんど: 4
   cost: 400
   rate: -0.0025
-- name: まるたのベンチ
-  bell: -1
-  material:
-    かたいもくざい: 5
-  cost: 300
-  rate: -0.0033333333333333335
 - name: みちしるべ
   bell: -1
   material:
@@ -1194,18 +1194,16 @@
     タイヤ: 2
   cost: 60
   rate: -0.016666666666666666
-- name: タランチュラ
-  bell: 8000
-  レックス: 12000
 - name: ソーイングセット
   price: 420
 - name: スマホケースリメイクキット
   bell: 9000
 - name: リュウグウノツカイ
   bell: 9000
+- name: タランチュラ
+  bell: 8000
+  レックス: 12000
 - name: トリケラトプスのあたま
-  bell: 5500
-- name: 　のみぎはんしん
   bell: 5500
 - name: ケツァルコアトルスのうよく
   bell: 5000
@@ -1243,8 +1241,6 @@
   bell: 4000
 - name: モルフォチョウ
   bell: 4000
-- name: クラッカー
-  price: 100
 - name: オオイワナ
   bell: 3800
 - name: アーケロンのからだ
@@ -1314,9 +1310,6 @@
   bell: 875
 - name: ヒラメ
   bell: 800
-- name: TOYなオーディオ
-  bell: 800
-  price: 3200
 - name: ホラガイ
   bell: 700
 - name: ボックスソファ
@@ -1395,29 +1388,31 @@
   bell: 250
 - name: アゲハチョウ
   bell: 240
-- name: ギンヤンマ
-  bell: 230
-- name: ひじょうぐち
-  bell: 202
-  price: 810
-- name: そぼくなDIYさぎょうだいのDIYレシピ
-  bell: 200
-- name: はっぱのたまご
-  bell: 200
 - name: イースターなゆかのDIYレシピ
   bell: 200
-- name: イースターなクロゼットのDIYレシピ
+- name: サカナのたまご
   bell: 200
+- name: ザリガニ
+  bell: 200
+- name: ショウリョウバッタ
+  bell: 200
+- name: ぶんごうセット
+  bell: 162
+  price: 650
 - name: アジ
   bell: 150
 - name: もじキャップ
   bell: 140
-- name: ねんど
-  bell: 100
+- name: サンドダラー
+  bell: 120
 - name: アサリ
   bell: 100
 - name: やわらかいもくざい
   bell: 60
+- name: タカラガイ
+  bell: 60
+- name: タイヤ
+  bell: 10
 - name: ゆうじんうちゅうせん
   bell: -1
   material:
@@ -1439,6 +1434,11 @@
     おひつじざのかけら: 2
     きんこうせき: 1
     いし: 5
+- name: スターなステッキ
+  bell: -1
+  material:
+    おおきなほしのかけら: 1
+    ほしのかけら: 3
 - name: せんめんだい
   price: 3300
 - name: にだんベッド
@@ -1448,7 +1448,11 @@
 - name: エスプレッソマシン
   bells: -1
   price: 5600
+- name: クラッカー
+  price: 100
 - name: Tレックスのからだ
+  bell: 5500
+- name: メガロケロスのみぎはんしん
   bell: 5500
 - name: Tレックスのしっぽ
   bell: 5000
@@ -1457,6 +1461,9 @@
 - name: かまどのキッチン
   bell: 825
   price: 3300
+- name: TOYなオーディオ
+  bell: 800
+  price: 3200
 - name: えいしゃき
   bell: 600
   price: 2400
@@ -1478,8 +1485,13 @@
   bell: 240
 - name: ボーダーTシャツ
   bell: 240
+- name: ギンヤンマ
+  bell: 230
 - name: ペットのごはん
   bell: 207
+- name: ひじょうぐち
+  bell: 202
+  price: 810
 - name: いわのたまご
   bell: 200
 - name: おこう
@@ -1492,11 +1504,17 @@
   bell: 200
 - name: じめんのたまご
   bell: 200
+- name: そぼくなDIYさぎょうだいのDIYレシピ
+  bell: 200
 - name: そらとぶたまご
+  bell: 200
+- name: はっぱのたまご
   bell: 200
 - name: はるのわかたけ
   bell: 200
 - name: まるたのベンチのDIYレシピ
+  bell: 200
+- name: イースターなクロゼットのDIYレシピ
   bell: 200
 - name: イースターなドレッサーのDIYレシピ
   bell: 200
@@ -1508,12 +1526,6 @@
   bell: 200
 - name: キクのクッションのDIYレシピ
   bell: 200
-- name: サカナのたまご
-  bell: 200
-- name: ザリガニ
-  bell: 200
-- name: ショウリョウバッタ
-  bell: 200
 - name: フナムシ
   bell: 200
 - name: あおいみずたまのかさ
@@ -1523,9 +1535,6 @@
   bell: 180
 - name: ポリタンク
   bell: 170
-- name: ぶんごうセット
-  bell: 162
-  price: 650
 - name: パーティーのかざり
   bell: 162
 - name: マッスルタンクトップ
@@ -1540,9 +1549,9 @@
   bell: 125
 - name: カメムシ
   bell: 120
-- name: サンドダラー
-  bell: 120
 - name: かせき
+  bell: 100
+- name: ねんど
   bell: 100
 - name: オタマジャクシ
   bell: 100
@@ -1558,8 +1567,6 @@
 - name: かたいもくざい
   bell: 60
 - name: もくざい
-  bell: 60
-- name: タカラガイ
   bell: 60
 - name: あかいアネモネ
   bell: 40
@@ -1589,12 +1596,13 @@
   bell: 10
 - name: ながぐつ
   bell: 10
-- name: タイヤ
-  bell: 10
 - name: きのえだ
   bell: 5
 - name: あかいヒヤシンス
   bell: -1
+- name: うらないセット
+  bell: -1
+  price: 1000
 - name: おおきなほしのかけら
   bell: -1
 - name: かいがらのふんすい
@@ -1621,11 +1629,6 @@
   material:
     きいろいキク: 3
     ざっそう: 10
-- name: スターなステッキ
-  bell: -1
-  material:
-    おおきなほしのかけら: 1
-    ほしのかけら: 3
 - name: ノームのおきもの
   bell: -1
   price: 1900
@@ -1635,6 +1638,3 @@
     あかいヒヤシンス: 4
     きいろいヒヤシンス: 2
     しろいヒヤシンス: 2
-- name: うらないセット
-  bell: -1
-  price: 1000
