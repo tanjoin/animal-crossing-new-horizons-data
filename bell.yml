@@ -1311,6 +1311,8 @@
 - name: ぼうえんきょう
   price: 5600
   bell: 1400
+- name: さんようちゅう
+  bell: 1300
 - name: ポップコーンマシン
   bell: 1225
   price: 4900
