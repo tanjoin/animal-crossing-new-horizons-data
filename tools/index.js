@@ -101,4 +101,14 @@ try {
     process.exit(1);
   }
 }
+
+try {
+  fs.writeFileSync('../bell.js', 'let jsonData = ' + JSON.stringify(result) + ';', 'utf8');
+} catch (error) {
+  if (error) {
+    console.error(error.message);
+    process.exit(1);
+  }
+}
+
 console.log('Success!');

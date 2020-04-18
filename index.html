@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>あつまれ どうぶつの森の売値一覧（調査済みのみ）</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <h1>あつまれ どうぶつの森の売値一覧（調査済みのみ）</h1>
+      <p>条件：ナシが100ベルの島</p>
+
+      <div class="btn-group btn-group-toggle mb-3" data-toggle="buttons">
+        <label class="btn btn-secondary active">
+          <input type="radio" onclick="search();" name="options" id="option1" autocomplete="off" checked> 名称&素材
+        </label>
+        <label class="btn btn-secondary">
+          <input type="radio" onclick="search();" name="options" id="option2" autocomplete="off"> 名称
+        </label>
+        <label class="btn btn-secondary">
+          <input type="radio" onclick="search();" name="options" id="option3" autocomplete="off"> 素材
+        </label>
+      </div>
+
+      <div class="input-group mb-3">
+        <input id="search-input" class="form-control" type="text" onkeyup="search(this);" onchange="search(this);">
+      </div>
+
+      <table class="table table-bordered table-sm">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col" id="name-default" class="sort-default" style="cursor: pointer;" onclick="sortNameDown();">名称</th>
+            <th scope="col" id="name-up" class="sort-custom" style="cursor: pointer; display: none;" onclick="sortNameDown();">名称<i class="fas fa-arrow-up"></i></th>
+            <th scope="col" id="name-down" class="sort-custom" style="cursor: pointer; display: none;" onclick="sortNameUp();">名称<i class="fas fa-arrow-down"></i></th>
+            <th scope="col" id="bell-default" class="sort-default" style="cursor: pointer;" onclick="sortBellDown();">売値</th>
+            <th scope="col" id="bell-up" class="sort-custom" style="cursor: pointer; display: none;" onclick="sortBellDown();">売値<i class="fas fa-arrow-up"></i></th>
+            <th scope="col" id="bell-down" class="sort-custom" style="cursor: pointer; display: none;" onclick="sortBellUp();">売値<i class="fas fa-arrow-down"></i></th>
+            <th scope="col" id="cost-default" class="sort-default" style="cursor: pointer;" onclick="sortCostDown();">コスト</th>
+            <th scope="col" id="cost-up" class="sort-custom" style="cursor: pointer; display: none;" onclick="sortCostDown();">コスト<i class="fas fa-arrow-up"></i></th>
+            <th scope="col" id="cost-down" class="sort-custom" style="cursor: pointer; display: none;" onclick="sortCostUp();">コスト<i class="fas fa-arrow-down"></i></th>
+            <th scope="col" id="rate-default" class="sort-default" style="cursor: pointer;" onclick="sortRateDown();">倍率</th>
+            <th scope="col" id="rate-up" class="sort-custom" style="cursor: pointer; display: none;" onclick="sortRateDown();">倍率<i class="fas fa-arrow-up"></i></th>
+            <th scope="col" id="rate-down" class="sort-custom" style="cursor: pointer; display: none;" onclick="sortRateUp();">倍率<i class="fas fa-arrow-down"></i></th>
+            <th scope="col" id="price-default" class="sort-default" style="cursor: pointer;" onclick="sortPriceDown();">販売価格</th>
+            <th scope="col" id="price-up" class="sort-custom" style="cursor: pointer; display: none;" onclick="sortPriceDown();">販売価格<i class="fas fa-arrow-up"></i></th>
+            <th scope="col" id="price-down" class="sort-custom" style="cursor: pointer; display: none;" onclick="sortPriceUp();">販売価格<i class="fas fa-arrow-down"></i></th>
+            <th scope="col" id="material-default" class="sort-default" style="cursor: pointer;" onclick="sortMaterialDown();">素材</th>
+            <th scope="col" id="material-up" class="sort-custom" style="cursor: pointer; display: none;" onclick="sortMaterialDown();">素材<i class="fas fa-arrow-up"></i></th>
+            <th scope="col" id="material-down" class="sort-custom" style="cursor: pointer; display: none;" onclick="sortMaterialUp();">素材<i class="fas fa-arrow-down"></i></th>
+          </tr>
+        </thead>
+        <tbody id="dataarea"></tbody>
+      </table>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
+
+    <!-- js-yaml -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.13.1/js-yaml.min.js" integrity="sha256-ry6nlLQ1JmRl5RUPQ4eSuaSp/rGNPvl144WHHs7BiNE=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="bell.js"></script>
+    <script type="text/javascript">
+      window.onload = () => {
+        didClick();
+      };
+
+      // 検索
+      var search = (element) => {
+        let dataarea = document.getElementById('dataarea');
+        let option1 = document.getElementById('option1');
+        let option2 = document.getElementById('option2');
+        let option3 = document.getElementById('option3');
+        dataarea.innerHTML = '';
+        var text;
+        if (element) {
+          text = element.value.toUpperCase();          
+        } else {
+          text = document.getElementById('search-input').value.toUpperCase();
+        }
+        if (!text && text.replace(' ', '').replace('　', '').length > 0) {
+          jsonData.forEach((element, index) => {
+            dataarea.appendChild(createTr(element, index));          
+          });
+          return;
+        }
+        jsonData.filter((element) => {
+          if (option1.checked) {
+            if (element.name.includes(text)) {
+              return true;
+            }
+            if (element.material) {
+              let textmaterial = [];
+              for (var key in element.material) {
+                textmaterial.push(key + '：' + element.material[key]);
+              }
+              return textmaterial.join('、').includes(text);
+            } else {
+              return false;
+            }            
+          } else if (option2.checked) {
+            return element.name.includes(text);
+          } else if (option3.checked) {
+            if (element.material) {
+              let textmaterial = [];
+              for (var key in element.material) {
+                textmaterial.push(key + '：' + element.material[key]);
+              }
+              return textmaterial.join('、').includes(text);
+            } else {
+              return false;
+            }
+          } else {
+            return true;            
+          }
+        }).forEach((element, index) => {
+          dataarea.appendChild(createTr(element, index));          
+        });
+      }
+
+      // ヘッダー
+      var resetTableHeader = () => {
+        [...document.querySelectorAll('.sort-default')].forEach((e) => {
+          e.style.display = '';
+        });
+        [...document.querySelectorAll('.sort-custom')].forEach((e) => {
+          e.style.display = 'none';
+        });
+      }
+
+      // ソート(上昇)
+      var sortNameUp = () => {
+        resetTableHeader();
+        document.getElementById('name-default').style.display = 'none';
+        document.getElementById('name-down').style.display = 'none';
+        document.getElementById('name-up').style.display = '';
+        jsonData.sort(compareNameUp);
+        search();
+      };
+      var sortBellUp = () => {
+        resetTableHeader();
+        document.getElementById('bell-default').style.display = 'none';
+        document.getElementById('bell-down').style.display = 'none';
+        document.getElementById('bell-up').style.display = '';
+        jsonData.sort(compareBellUp);
+        search();
+      };
+      var sortCostUp = () => {
+        resetTableHeader();
+        document.getElementById('cost-default').style.display = 'none';
+        document.getElementById('cost-down').style.display = 'none';
+        document.getElementById('cost-up').style.display = '';
+        jsonData.sort(compareCostUp);
+        search();
+      };
+      var sortRateUp = () => {
+        resetTableHeader();
+        document.getElementById('rate-default').style.display = 'none';
+        document.getElementById('rate-down').style.display = 'none';
+        document.getElementById('rate-up').style.display = '';
+        jsonData.sort(compareRateUp);
+        search();
+      };
+      var sortPriceUp = () => {
+        resetTableHeader();
+        document.getElementById('price-default').style.display = 'none';
+        document.getElementById('price-down').style.display = 'none';
+        document.getElementById('price-up').style.display = '';
+        jsonData.sort(comparePriceUp);
+        search();
+      };
+      var sortMaterialUp = () => {
+        resetTableHeader();
+        document.getElementById('material-default').style.display = 'none';
+        document.getElementById('material-down').style.display = 'none';
+        document.getElementById('material-up').style.display = '';
+        jsonData.sort(compareMaterialUp);
+        search();
+      };      
+
+      // ソート(下降)
+      var sortNameDown = () => {
+        resetTableHeader();
+        document.getElementById('name-default').style.display = 'none';
+        document.getElementById('name-up').style.display = 'none';
+        document.getElementById('name-down').style.display = '';
+        jsonData.sort(compareNameDown);
+        search();
+      };
+      var sortBellDown = () => {
+        resetTableHeader();
+        document.getElementById('bell-default').style.display = 'none';
+        document.getElementById('bell-up').style.display = 'none';
+        document.getElementById('bell-down').style.display = '';
+        jsonData.sort(compareBellDown);
+        search();
+      };
+      var sortCostDown = () => {
+        resetTableHeader();
+        document.getElementById('cost-default').style.display = 'none';
+        document.getElementById('cost-up').style.display = 'none';
+        document.getElementById('cost-down').style.display = '';
+        jsonData.sort(compareCostDown);
+        search();
+      };
+      var sortRateDown = () => {
+        resetTableHeader();
+        document.getElementById('rate-default').style.display = 'none';
+        document.getElementById('rate-up').style.display = 'none';
+        document.getElementById('rate-down').style.display = '';
+        jsonData.sort(compareRateDown);
+        search();
+      };
+      var sortPriceDown = () => {
+        resetTableHeader();
+        document.getElementById('price-default').style.display = 'none';
+        document.getElementById('price-up').style.display = 'none';
+        document.getElementById('price-down').style.display = '';
+        jsonData.sort(comparePriceDown);
+        search();
+      };
+      var sortMaterialDown = () => {
+        resetTableHeader();
+        document.getElementById('material-default').style.display = 'none';
+        document.getElementById('material-up').style.display = 'none';
+        document.getElementById('material-down').style.display = '';
+        jsonData.sort(compareMaterialDown);
+        search();
+      };
+
+      // 比較(上昇)
+      var compareNameUp = (a, b) => {
+        return compareUp(a.name, b.name);
+      }
+      var compareBellUp = (a, b) => {
+        return compareUp(a.bell, b.bell);
+      }
+      var compareCostUp = (a, b) => {
+        return compareUp(a.cost, b.cost);
+      }
+      var compareRateUp = (a, b) => {
+        return compareUp(a.rate, b.rate);
+      }
+      var comparePriceUp = (a, b) => {
+        return compareUp(a.price, b.price);
+      }
+      var compareUp = (a, b) => {
+        if (a === b) {
+          return 0;
+        } else if (!a) {
+          return 1;
+        } else if (!b) {
+          return -1;
+        } else if (a > b) {
+          return 1;
+        } else {
+          return -1;
+        }
+      };
+      var compareMaterialUp = (a, b) => {
+        if (a.material === b.material) {
+          return 0;
+        } else if (!a.material && a.material !== 0) {
+          return 1;
+        } else if (!b.material && b.material !== 0) {
+          return -1;
+        }
+        let aa = Object.keys(a.material).length;
+        let bb = Object.keys(b.material).length
+        if (aa > bb) {
+          return 1;
+        } else if (aa === bb) {
+          return 0;
+        } else {
+          return -1;
+        }
+      };
+
+      // 比較(下降)
+      var compareNameDown = (a, b) => {
+        return compareDown(a.name, b.name);
+      }
+      var compareBellDown = (a, b) => {
+        return compareDown(a.bell, b.bell);
+      }
+      var compareCostDown = (a, b) => {
+        return compareDown(a.cost, b.cost);
+      }
+      var compareRateDown = (a, b) => {
+        return compareDown(a.rate, b.rate);
+      }
+      var comparePriceDown = (a, b) => {
+        return compareDown(a.price, b.price);
+      }
+      var compareDown = (a, b) => {
+        if (a === b) {
+          return 0;
+        } else if (!a) {
+          return 1;
+        } else if (!b) {
+          return -1;
+        } else if (a < b) {
+          return 1;
+        } else {
+          return -1;
+        }
+      };
+      var compareMaterialDown = (a, b) => {
+        if (a.material === b.material) {
+          return 0;
+        } else if (!a.material && a.material !== 0) {
+          return 1;
+        } else if (!b.material && b.material !== 0) {
+          return -1;
+        }
+        let aa = Object.keys(a.material).length;
+        let bb = Object.keys(b.material).length
+        if (aa < bb) {
+          return 1;
+        } else if (aa === bb) {
+          return 0;
+        } else {
+          return -1;
+        }
+      };
+
+      // 表示更新
+      var didClick = () => {
+        let dataarea = document.getElementById('dataarea');
+        dataarea.innerHTML = '';
+        jsonData.forEach((element, index) => {
+          dataarea.appendChild(createTr(element, index));          
+        });
+      }
+      var createTr = (element, index) => {
+        let tr = document.createElement('tr');
+        tr.appendChild(createTh(index + 1));
+        tr.appendChild(createTd(element.name));
+        tr.appendChild(createTd(element.bell));
+        tr.appendChild(createTd(element.cost));
+        tr.appendChild(createTd(Math.round(element.rate * 1000) / 1000));
+        tr.appendChild(createTd(element.price));
+        if (element.material) {
+          let textmaterial = [];
+          for (var key in element.material) {
+            textmaterial.push(key + '：' + element.material[key]);
+          }
+          tr.appendChild(createTd(textmaterial.join('、')));
+        } else {
+          tr.appendChild(createTd('-'));
+        }
+        return tr;
+      }
+      var createTd = (element) => {
+        let td = document.createElement('td');
+        td.innerText = undefinedToHyphen(element);
+        return td;
+      }
+      var createTh = (element) => {
+        let th = document.createElement('th');
+        th.innerText = undefinedToHyphen(element);
+        return th;
+      }
+      var undefinedToHyphen = (text) => {
+        if (text || text === 0) {
+          return text;
+        }
+        return '-';
+      }
+    </script>
+  </body>
+</html>
