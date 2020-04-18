@@ -129,6 +129,12 @@
     てっこうせき: 4
   cost: 1860
   rate: 2
+- name: もくせいダブルベッド
+  bell: 3600
+  material:
+    もくざい: 30
+  cost: 1800
+  rate: 2
 - name: パームツリーランプ
   bell: 3280
   material:
@@ -433,6 +439,12 @@
   bell: 960
   material:
     もくざい: 8
+  cost: 480
+  rate: 2
+- name: ダークなバンブーラグ
+  bell: 960
+  material:
+    バンブー: 6
   cost: 480
   rate: 2
 - name: いわのたまごのから
@@ -1205,6 +1217,8 @@
   レックス: 12000
 - name: トリケラトプスのあたま
   bell: 5500
+- name: メガロケロスのみぎはんしん
+  bell: 5500
 - name: ケツァルコアトルスのうよく
   bell: 5000
 - name: ディプロドクスのあたま
@@ -1224,6 +1238,8 @@
 - name: フタバサウルスのからだ
   bell: 4500
 - name: プテラノドンのさよく
+  bell: 4500
+- name: フタバサウルスのしっぽ
   bell: 4500
 - name: ステゴサウルスのしっぽ
   bell: 4000
@@ -1275,6 +1291,8 @@
 - name: ハチ
   bell: 2500
 - name: パラサウロロフスのしっぽ
+  bell: 2500
+- name: オフタルモサウルスのあたま
   bell: 2500
 - name: タマムシ
   bell: 2400
@@ -1388,6 +1406,9 @@
   bell: 250
 - name: アゲハチョウ
   bell: 240
+- name: ひじょうぐち
+  bell: 202
+  price: 810
 - name: イースターなゆかのDIYレシピ
   bell: 200
 - name: サカナのたまご
@@ -1396,9 +1417,6 @@
   bell: 200
 - name: ショウリョウバッタ
   bell: 200
-- name: ぶんごうセット
-  bell: 162
-  price: 650
 - name: アジ
   bell: 150
 - name: もじキャップ
@@ -1413,6 +1431,8 @@
   bell: 60
 - name: タイヤ
   bell: 10
+- name: ほしのかけら
+  bell: -1
 - name: ゆうじんうちゅうせん
   bell: -1
   material:
@@ -1452,8 +1472,6 @@
   price: 100
 - name: Tレックスのからだ
   bell: 5500
-- name: メガロケロスのみぎはんしん
-  bell: 5500
 - name: Tレックスのしっぽ
   bell: 5000
 - name: おサカナのステッキ
@@ -1489,9 +1507,6 @@
   bell: 230
 - name: ペットのごはん
   bell: 207
-- name: ひじょうぐち
-  bell: 202
-  price: 810
 - name: いわのたまご
   bell: 200
 - name: おこう
@@ -1535,6 +1550,9 @@
   bell: 180
 - name: ポリタンク
   bell: 170
+- name: ぶんごうセット
+  bell: 162
+  price: 650
 - name: パーティーのかざり
   bell: 162
 - name: マッスルタンクトップ
@@ -1619,8 +1637,6 @@
 - name: しょるいのやま
   bell: -1
   price: 1600
-- name: ほしのかけら
-  bell: -1
 - name: ウォータービュー
   bell: -1
   price: 1900
