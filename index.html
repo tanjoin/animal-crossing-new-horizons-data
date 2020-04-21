@@ -12,7 +12,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <span class="navbar-brand mb-0 h1">あつまれ どうぶつの森の売値一覧（調査済みのみ）</span>
+      <span class="navbar-brand mb-0 h1"><a href="https://github.com/tanjoin/animal-crossing-new-horizons-data">あつまれ どうぶつの森の売値一覧（調査済みのみ）</a></span>
     </nav>
     <div class="container-fluid">
 
@@ -69,8 +69,6 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
 
-    <!-- js-yaml -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.13.1/js-yaml.min.js" integrity="sha256-ry6nlLQ1JmRl5RUPQ4eSuaSp/rGNPvl144WHHs7BiNE=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="bell.js"></script>
     <script type="text/javascript">
       window.onload = () => {
@@ -86,13 +84,13 @@
         dataarea.innerHTML = '';
         var text;
         if (element) {
-          text = element.value.toUpperCase();          
+          text = element.value.toUpperCase();
         } else {
           text = document.getElementById('search-input').value.toUpperCase();
         }
         if (!text && text.replace(' ', '').replace('　', '').length > 0) {
           jsonData.forEach((element, index) => {
-            dataarea.appendChild(createTr(element, index));          
+            dataarea.appendChild(createTr(element, index));
           });
           return;
         }
@@ -109,7 +107,7 @@
               return textmaterial.join('、').includes(text);
             } else {
               return false;
-            }            
+            }
           } else if (option2.checked) {
             return element.name.includes(text);
           } else if (option3.checked) {
@@ -123,10 +121,10 @@
               return false;
             }
           } else {
-            return true;            
+            return true;
           }
         }).forEach((element, index) => {
-          dataarea.appendChild(createTr(element, index));          
+          dataarea.appendChild(createTr(element, index));
         });
       }
 
@@ -188,7 +186,7 @@
         document.getElementById('material-up').style.display = '';
         jsonData.sort(compareMaterialUp);
         search();
-      };      
+      };
 
       // ソート(下降)
       var sortNameDown = () => {
@@ -341,7 +339,7 @@
         let dataarea = document.getElementById('dataarea');
         dataarea.innerHTML = '';
         jsonData.forEach((element, index) => {
-          dataarea.appendChild(createTr(element, index));          
+          dataarea.appendChild(createTr(element, index));
         });
       }
       var createTr = (element, index) => {
