@@ -1193,6 +1193,12 @@
     やわらかいもくざい: 2
   cost: 240
   rate: -0.004166666666666667
+- name: もくせいのくずかご
+  bell: -1
+  material:
+    もくざい: 4
+  cost: 240
+  rate: -0.004166666666666667
 - name: せんたくおけ
   bell: -1
   material:
@@ -1267,10 +1273,10 @@
   bell: 4000
 - name: モルフォチョウ
   bell: 4000
-- name: アーケロンのあたま
-  bell: 4000
 - name: クラッカー
   price: 100
+- name: アーケロンのあたま
+  bell: 4000
 - name: オオイワナ
   bell: 3800
 - name: アンキロサウルスのあたま
@@ -1420,8 +1426,8 @@
   bell: 250
 - name: アゲハチョウ
   bell: 240
-- name: ギンガムチェックのシャツ
-  bell: 240
+- name: ギンヤンマ
+  bell: 230
 - name: ひじょうぐち
   bell: 202
   price: 810
@@ -1502,10 +1508,10 @@
   bell: 240
 - name: ウグイ
   bell: 240
+- name: ギンガムチェックのシャツ
+  bell: 240
 - name: ボーダーTシャツ
   bell: 240
-- name: ギンヤンマ
-  bell: 230
 - name: ペットのごはん
   bell: 207
 - name: いわのたまご
