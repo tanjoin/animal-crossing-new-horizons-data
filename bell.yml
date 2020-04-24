@@ -578,6 +578,12 @@
     ヤシのみ: 1
   cost: 250
   rate: 2
+- name: もくせいのくずかご
+  bell: 480
+  material:
+    もくざい: 4
+  cost: 240
+  rate: 2
 - name: いしのスツール
   bell: 450
   material:
@@ -1193,12 +1199,6 @@
     やわらかいもくざい: 2
   cost: 240
   rate: -0.004166666666666667
-- name: もくせいのくずかご
-  bell: -1
-  material:
-    もくざい: 4
-  cost: 240
-  rate: -0.004166666666666667
 - name: せんたくおけ
   bell: -1
   material:
@@ -1241,7 +1241,7 @@
   bell: 5000
 - name: ディメトロドンのからだ
   bell: 5000
-- name: ケツァルコアトルス
+- name: ケツァルコアトルスのあたま
   bell: 4500
 - name: ステゴサウルスのからだ
   bell: 4500
@@ -1257,6 +1257,8 @@
   bell: 4500
 - name: メガセロプスのあたま
   bell: 4500
+- name: アーケロンのあたま
+  bell: 4000
 - name: ステゴサウルスのしっぽ
   bell: 4000
 - name: スピノサウルスのあたま
@@ -1273,10 +1275,6 @@
   bell: 4000
 - name: モルフォチョウ
   bell: 4000
-- name: クラッカー
-  price: 100
-- name: アーケロンのあたま
-  bell: 4000
 - name: オオイワナ
   bell: 3800
 - name: アンキロサウルスのあたま
@@ -1286,6 +1284,8 @@
 - name: イグアナドンのからだ
   bell: 3500
 - name: イグアノドンのからだ
+  bell: 3500
+- name: パラサウロロフスのあたま
   bell: 3500
 - name: メガセロプスのからだ
   bell: 3500
@@ -1426,21 +1426,31 @@
   bell: 250
 - name: アゲハチョウ
   bell: 240
-- name: ギンヤンマ
-  bell: 230
 - name: ひじょうぐち
   bell: 202
   price: 810
 - name: イースターなゆかのDIYレシピ
   bell: 200
+- name: サカナのたまご
+  bell: 200
+- name: ザリガニ
+  bell: 200
+- name: ショウリョウバッタ
+  bell: 200
 - name: アジ
   bell: 150
 - name: もじキャップ
   bell: 140
+- name: サンドダラー
+  bell: 120
 - name: アサリ
   bell: 100
 - name: やわらかいもくざい
   bell: 60
+- name: タカラガイ
+  bell: 60
+- name: タイヤ
+  bell: 10
 - name: ほしのかけら
   bell: -1
 - name: ゆうじんうちゅうせん
@@ -1464,6 +1474,11 @@
     おひつじざのかけら: 2
     きんこうせき: 1
     いし: 5
+- name: スターなステッキ
+  bell: -1
+  material:
+    おおきなほしのかけら: 1
+    ほしのかけら: 3
 - name: せんめんだい
   price: 3300
 - name: にだんベッド
@@ -1473,6 +1488,8 @@
 - name: エスプレッソマシン
   bells: -1
   price: 5600
+- name: クラッカー
+  price: 100
 - name: Tレックスのあたま
   bell: 6000
 - name: Tレックスのからだ
@@ -1512,6 +1529,8 @@
   bell: 240
 - name: ボーダーTシャツ
   bell: 240
+- name: ギンヤンマ
+  bell: 230
 - name: ペットのごはん
   bell: 207
 - name: いわのたまご
@@ -1548,12 +1567,6 @@
   bell: 200
 - name: キクのクッションのDIYレシピ
   bell: 200
-- name: サカナのたまご
-  bell: 200
-- name: ザリガニ
-  bell: 200
-- name: ショウリョウバッタ
-  bell: 200
 - name: フナムシ
   bell: 200
 - name: あおいみずたまのかさ
@@ -1582,8 +1595,6 @@
   bell: 125
 - name: カメムシ
   bell: 120
-- name: サンドダラー
-  bell: 120
 - name: かせき
   bell: 100
 - name: ねんど
@@ -1608,8 +1619,6 @@
 - name: かたいもくざい
   bell: 60
 - name: もくざい
-  bell: 60
-- name: タカラガイ
   bell: 60
 - name: あかいアネモネ
   bell: 40
@@ -1643,8 +1652,6 @@
   bell: 10
 - name: ながぐつ
   bell: 10
-- name: タイヤ
-  bell: 10
 - name: きのえだ
   bell: 5
 - name: うらないセット
@@ -1674,11 +1681,6 @@
   material:
     きいろいキク: 3
     ざっそう: 10
-- name: スターなステッキ
-  bell: -1
-  material:
-    おおきなほしのかけら: 1
-    ほしのかけら: 3
 - name: ノームのおきもの
   bell: -1
   price: 1900
