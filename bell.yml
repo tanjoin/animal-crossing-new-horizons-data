@@ -525,6 +525,13 @@
     サカナのたまご: 2
   cost: 400
   rate: 2
+- name: パンジーのテーブル
+  bell: 760
+  material:
+    きいろいパンジー: 5
+    かたいもくざい: 3
+  cost: 380
+  rate: 2
 - name: もくせいチェア
   bell: 720
   material:
@@ -1205,13 +1212,6 @@
     ねんど: 4
   cost: 400
   rate: -0.0025
-- name: パンジーのテーブル
-  bell: -1
-  material:
-    きいろいパンジー: 5
-    かたいもくざい: 3
-  cost: 380
-  rate: -0.002631578947368421
 - name: みちしるべ
   bell: -1
   material:
@@ -1239,6 +1239,13 @@
     あきカン: 1
   cost: 110
   rate: -0.00909090909090909
+- name: かかし
+  bell: -1
+  material:
+    きのえだ: 3
+    ざっそう: 5
+  cost: 65
+  rate: -0.015384615384615385
 - name: おへやのゆか
   bell: -1
   material:
@@ -1414,9 +1421,13 @@
   bell: 2000
 - name: ハンミョウ
   bell: 1500
+- name: だんろ
+  bell: 1475
 - name: ポップコーンマシン
   bell: 1225
   price: 4900
+- name: クライミングウォール
+  bell: 1075
 - name: オオゴマダラ
   bell: 1000
 - name: ジンメンカメムシ
@@ -1696,6 +1707,8 @@
 - name: ながぐつ
   bell: 10
 - name: タイヤ
+  bell: 10
+- name: あなあきソックス
   bell: 10
 - name: きのえだ
   bell: 5
