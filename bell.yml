@@ -1629,6 +1629,7 @@
   bell: 240
 - name: こうようじゅ
   bell: 240
+  type: き
 - name: ウグイ
   bell: 240
 - name: ボーダーTシャツ
