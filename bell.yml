@@ -1600,6 +1600,7 @@
   bell: 1475
 - name: さんようちゅう
   bell: 1300
+  type: かせき
 - name: かべかけカジキ
   bell: 1250
   price: 5000
