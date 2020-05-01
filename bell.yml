@@ -288,6 +288,12 @@
     てっこうせき: 3
   cost: 1125
   rate: 2
+- name: もくせいシングルベッド
+  bell: 2160
+  material:
+    もくざい: 18
+  cost: 1080
+  rate: 2
 - name: まるたのダイニングテーブル
   bell: 1800
   material:
@@ -447,6 +453,12 @@
     もくざい: 8
   cost: 480
   rate: 2
+- name: まるたのソファ
+  bell: 960
+  material:
+    かたいもくざい: 8
+  cost: 480
+  rate: 2
 - name: ダークなバンブーラグ
   bell: 960
   material:
@@ -584,6 +596,12 @@
   material:
     ヤシのみ: 1
   cost: 250
+  rate: 2
+- name: たけのまり
+  bell: 480
+  material:
+    バンブー: 3
+  cost: 240
   rate: 2
 - name: もくせいのくずかご
   bell: 480
@@ -1264,9 +1282,6 @@
 - name: マイルりょこうけん
   bell: 10000
   mile: 2000
-- name: タランチュラ
-  bell: 8000
-  レックス: 12000
 - name: ソーイングセット
   price: 420
 - name: スマホケースリメイクキット
@@ -1274,6 +1289,9 @@
 - name: リュウグウノツカイ
   bell: 9000
   type: さかな
+- name: タランチュラ
+  bell: 8000
+  レックス: 12000
 - name: ブラキオサウルスのあたま
   bell: 6000
   type: かせき
@@ -1342,45 +1360,31 @@
 - name: モルフォチョウ
   bell: 4000
   type: むし
+- name: クラッカー
+  price: 100
+- name: アーケロンのあたま
+  bell: 4000
+- name: オオイワナ
+  bell: 3800
+- name: アンキロサウルスのあたま
+  bell: 3500
+  type: かせき
+- name: アーケロンのからだ
+  bell: 3500
+- name: イグアナドンのからだ
+  bell: 3500
+- name: イグアノドンのからだ
+  bell: 3500
 - name: ダンクルオステウス
   bell: 3500
   type: かせき
-- name: タイ
-  bell: 3000
-- name: スピノサウルスのしっぽ
-  bell: 2500
-  type: かせき
-- name: スミロドンのあたま
-  bell: 2500
-  type: かせき
-- name: タマムシ
-  bell: 2400
-- name: スミロドンのからだ
-  bell: 2000
-  type: かせき
-- name: サメのはのかせき
-  bell: 1000
-  type: かせき
-- name: ジンメンカメムシ
-  bell: 1000
-  レックス: 1500
-  type: むし
-- name: スロップシンク
-  bell: 875
-- name: スターなあみ
-  bell: 625
-  price: 2500
-- name: サンゴ
-  bell: 500
-- name: クラッカー
-  price: 100
-- name: オオイワナ
-  bell: 3800
 - name: パラサウロロフスのあたま
   bell: 3500
 - name: メガセロプスのからだ
   bell: 3500
   type: かせき
+- name: タイ
+  bell: 3000
 - name: ディノニクスのあたま
   bell: 3000
   type: かせき
@@ -1406,6 +1410,12 @@
 - name: カラスアゲハ
   bell: 2500
   type: むし
+- name: スピノサウルスのしっぽ
+  bell: 2500
+  type: かせき
+- name: スミロドンのあたま
+  bell: 2500
+  type: かせき
 - name: ハチ
   bell: 2500
 - name: パラサウロロフスのしっぽ
@@ -1413,20 +1423,44 @@
 - name: マンモスのからだ
   bell: 2500
   type: かせき
+- name: タマムシ
+  bell: 2400
 - name: オフタルモサウルスのからだ
   bell: 2000
+- name: スミロドンのからだ
+  bell: 2000
+  type: かせき
 - name: ユーステノプテロン
   bell: 2000
   type: かせき
 - name: ハンミョウ
   bell: 1500
+- name: ミロクンミンギア
+  bell: 1500
+  type: かせき
+- name: ぼうえんきょう
+  price: 5600
+  bell: 1400
 - name: ポップコーンマシン
   bell: 1225
   price: 4900
+- name: たぬきのおきもの
+  bell: 1200
+- name: アウストラロピテクス
+  bell: 1100
+- name: アンモナイト
+  bell: 1100
 - name: クライミングウォール
   bell: 1075
 - name: オオゴマダラ
   bell: 1000
+- name: サメのはのかせき
+  bell: 1000
+  type: かせき
+- name: ジンメンカメムシ
+  bell: 1000
+  レックス: 1500
+  type: むし
 - name: ヤドカリ
   bell: 1000
   レックス: 1500
@@ -1436,6 +1470,8 @@
   type: さかな
 - name: シャコガイ
   bell: 900
+- name: スロップシンク
+  bell: 875
 - name: ヒラメ
   bell: 800
 - name: ホラガイ
@@ -1452,6 +1488,9 @@
   bell: 625
   price: 2500
 - name: カラフルなパチンコ
+  bell: 625
+  price: 2500
+- name: スターなあみ
   bell: 625
   price: 2500
 - name: ゾウさんジョウロ
@@ -1471,15 +1510,25 @@
 - name: ユッカ
   bell: 525
   price: 2100
+- name: イカ
+  bell: 500
 - name: オレンジ
   bell: 500
   type: くだもの
+- name: サンゴ
+  bell: 500
 - name: ミノカサゴ
   bell: 500
   type: さかな
 - name: リンゴ
   bell: 500
   type: くだもの
+- name: バラのかんむり
+  bell: 480
+  material:
+    あかいバラ: 2
+    きいろいバラ: 2
+    しろいバラ: 2
 - name: ネコぐるま
   bell: 475
 - name: スズキ
@@ -1498,6 +1547,10 @@
 - name: プロテインシェイカー
   price: 1400
   bell: 350
+- name: アオスジアゲハ
+  bell: 300
+- name: イエローパーチ
+  bell: 300
 - name: カレイ
   bell: 300
   type: さかな
@@ -1516,6 +1569,8 @@
 - name: ムカデ
   bell: 300
   type: むし
+- name: たけのこ
+  bell: 250
 - name: カタツムリ
   bell: 250
   type: むし
@@ -1526,50 +1581,18 @@
 - name: ヤシのみ
   bell: 250
   type: くだもの
-- name: ギンガムチェックのシャツ
-  bell: 240
-- name: ギンヤンマ
-  bell: 230
-  type: むし
-- name: エスプレッソマシン
-  bells: -1
-  price: 5600
-- name: アーケロンのあたま
-  bell: 4000
-- name: アンキロサウルスのあたま
-  bell: 3500
-  type: かせき
-- name: アーケロンのからだ
-  bell: 3500
-- name: イグアナドンのからだ
-  bell: 3500
-- name: イグアノドンのからだ
-  bell: 3500
-- name: ぼうえんきょう
-  price: 5600
-  bell: 1400
-- name: アウストラロピテクス
-  bell: 1100
-- name: アンモナイト
-  bell: 1100
-- name: イカ
-  bell: 500
-- name: アオスジアゲハ
-  bell: 300
-- name: イエローパーチ
-  bell: 300
 - name: アゲハチョウ
   bell: 240
+- name: ギンガムチェックのシャツ
+  bell: 240
+- name: イースターなゆかのDIYレシピ
+  bell: 200
 - name: アジ
   bell: 150
 - name: もじキャップ
   bell: 140
 - name: アサリ
   bell: 100
-- name: もくせいシングルベッド
-  もくざい: 18
-- name: たけのこ
-  bell: 250
 - name: もくざい
   bell: 60
 - name: やわらかいもくざい
@@ -1580,6 +1603,9 @@
   price: 3300
 - name: にだんベッド
   price: 5000
+- name: エスプレッソマシン
+  bells: -1
+  price: 5600
 - name: きんこうせき
   bell: 10000
 - name: Tレックスのあたま
@@ -1604,6 +1630,8 @@
 - name: かべかけカジキ
   bell: 1250
   price: 5000
+- name: TOYなベッド
+  bell: 950
 - name: かまどのキッチン
   bell: 825
   price: 3300
@@ -1635,6 +1663,9 @@
   bell: 240
 - name: ボーダーTシャツ
   bell: 240
+- name: ギンヤンマ
+  bell: 230
+  type: むし
 - name: パイプイス
   price: 920
   bell: 230
@@ -1664,8 +1695,6 @@
 - name: はるのわかたけ
   bell: 200
 - name: まるたのベンチのDIYレシピ
-  bell: 200
-- name: イースターなゆかのDIYレシピ
   bell: 200
 - name: イースターなクロゼットのDIYレシピ
   bell: 200
