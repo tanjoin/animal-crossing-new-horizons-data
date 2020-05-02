@@ -365,6 +365,13 @@
     もくざい: 12
   cost: 720
   rate: 2
+- name: せかいのみちしるべ
+  bell: 1440
+  material:
+    かたいもくざい: 4
+    やわらかいもくざい: 8
+  cost: 720
+  rate: 2
 - name: そぼくなDIYさぎょうだい
   bell: 1350
   material:
@@ -869,6 +876,15 @@
     タイヤ: 1
   cost: 10
   rate: 2
+- name: サイロ
+  bell: 13820
+  material:
+    てっこうせき: 12
+    かたいもくざい: 6
+    ねんど: 12
+    いし: 12
+  cost: 6960
+  rate: 1.985632183908046
 - name: アイアンウッドDIYテーブル
   bell: 8520
   material:
