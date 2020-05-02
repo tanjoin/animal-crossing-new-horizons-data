@@ -103,7 +103,7 @@ try {
 }
 
 try {
-  fs.writeFileSync('../bell.js', 'let jsonData = ' + JSON.stringify(result) + ';', 'utf8');
+  fs.writeFileSync('../bell.js', 'let jsonData = ' + JSON.stringify(result, null, 2) + ';', 'utf8');
 } catch (error) {
   if (error) {
     console.error(error.message);

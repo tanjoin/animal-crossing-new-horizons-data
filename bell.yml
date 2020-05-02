@@ -1375,8 +1375,6 @@
 - name: モルフォチョウ
   bell: 4000
   type: むし
-- name: クラッカー
-  price: 100
 - name: オオイワナ
   bell: 3800
 - name: ダンクルオステウス
@@ -1571,9 +1569,36 @@
 - name: ヤシのみ
   bell: 250
   type: くだもの
+- name: ギンガムチェックのシャツ
+  bell: 240
+- name: ギンヤンマ
+  bell: 230
+  type: むし
+- name: サカナのたまご
+  bell: 200
+- name: ザリガニ
+  bell: 200
+- name: ショウリョウバッタ
+  bell: 200
+  type: むし
+- name: サンドダラー
+  bell: 120
+- name: タカラガイ
+  bell: 60
+- name: ダンボール
+  bell: 30
+- name: タイヤ
+  bell: 10
+- name: スターなステッキ
+  bell: -1
+  material:
+    おおきなほしのかけら: 1
+    ほしのかけら: 3
 - name: エスプレッソマシン
   bells: -1
   price: 5600
+- name: クラッカー
+  price: 100
 - name: アーケロンのあたま
   bell: 4000
 - name: アンキロサウルスのあたま
@@ -1596,9 +1621,8 @@
   bell: 400
 - name: たけのこ
   bell: 250
-- name: ぶんごうセット
-  bell: 162
-  price: 650
+- name: ほしのかけら
+  bell: -1
 - name: せんめんだい
   price: 3300
 - name: にだんベッド
@@ -1669,13 +1693,8 @@
   bell: 240
 - name: ウグイ
   bell: 240
-- name: ギンガムチェックのシャツ
-  bell: 240
 - name: ボーダーTシャツ
   bell: 240
-- name: ギンヤンマ
-  bell: 230
-  type: むし
 - name: パイプイス
   price: 920
   bell: 230
@@ -1722,13 +1741,6 @@
   bell: 200
 - name: キクのクッションのDIYレシピ
   bell: 200
-- name: サカナのたまご
-  bell: 200
-- name: ザリガニ
-  bell: 200
-- name: ショウリョウバッタ
-  bell: 200
-  type: むし
 - name: フナムシ
   bell: 200
 - name: あおいみずたまのかさ
@@ -1740,6 +1752,9 @@
   bell: 180
 - name: ポリタンク
   bell: 170
+- name: ぶんごうセット
+  bell: 162
+  price: 650
 - name: パーティーのかざり
   bell: 162
 - name: マッスルタンクトップ
@@ -1764,8 +1779,6 @@
 - name: カメムシ
   bell: 120
   type: むし
-- name: サンドダラー
-  bell: 120
 - name: かせき
   bell: 100
   type: かせき
@@ -1831,8 +1844,6 @@
   bell: 60
 - name: やわらかいもくざい
   bell: 60
-- name: タカラガイ
-  bell: 60
 - name: あかいアネモネ
   bell: 40
   type: はな
@@ -1877,8 +1888,6 @@
   type: はな
 - name: ピンクのラッピングペーパー
   bell: 40
-- name: ダンボール
-  bell: 30
 - name: あきカン
   bell: 10
 - name: あなあきソックス
@@ -1886,8 +1895,6 @@
 - name: ざっそう
   bell: 10
 - name: ながぐつ
-  bell: 10
-- name: タイヤ
   bell: 10
 - name: きのえだ
   bell: 5
@@ -1909,8 +1916,6 @@
 - name: しょるいのやま
   bell: -1
   price: 1600
-- name: ほしのかけら
-  bell: -1
 - name: ゆうじんうちゅうせん
   bell: -1
   material:
@@ -1935,11 +1940,6 @@
 - name: ウォータービュー
   bell: -1
   price: 1900
-- name: スターなステッキ
-  bell: -1
-  material:
-    おおきなほしのかけら: 1
-    ほしのかけら: 3
 - name: ノームのおきもの
   bell: -1
   price: 1900
