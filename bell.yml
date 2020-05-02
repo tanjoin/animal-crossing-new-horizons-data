@@ -842,6 +842,15 @@
     もくざい: 3
   cost: 280
   rate: 2
+- name: いけがき
+  bell: 55
+  quantity: 10
+  material:
+    ざっそう: 10
+    きのえだ: 5
+    いし: 2
+  cost: 275
+  rate: 2
 - name: リサイクルながぐつ
   bell: 40
   material:
@@ -1244,14 +1253,6 @@
     やわらかいもくざい: 3
   cost: 300
   rate: -0.0033333333333333335
-- name: いけがき
-  bell: -1
-  material:
-    ざっそう: 10
-    きのえだ: 5
-    いし: 2
-  cost: 275
-  rate: -0.0036363636363636364
 - name: わなげ
   bell: -1
   material:
