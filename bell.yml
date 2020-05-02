@@ -351,6 +351,13 @@
     やわらかいもくざい: 8
   cost: 780
   rate: 2
+- name: せかいのみちしるべ
+  bell: 1440
+  material:
+    かたいもくざい: 4
+    やわらかいもくざい: 8
+  cost: 720
+  rate: 2
 - name: はしご
   bell: 1440
   material:
@@ -363,13 +370,6 @@
   bell: 1440
   material:
     もくざい: 12
-  cost: 720
-  rate: 2
-- name: せかいのみちしるべ
-  bell: 1440
-  material:
-    かたいもくざい: 4
-    やわらかいもくざい: 8
   cost: 720
   rate: 2
 - name: そぼくなDIYさぎょうだい
@@ -763,6 +763,7 @@
   quantity: 10
   material:
     ねんど: 6
+  type: さく
   cost: 600
   rate: 2
 - name: はっぱ
@@ -804,6 +805,7 @@
   quantity: 10
   material:
     やわらかいもくざい: 6
+  type: さく
   cost: 360
   rate: 2
 - name: まるたのさく
@@ -825,6 +827,7 @@
   quantity: 10
   material:
     いし: 4
+  type: さく
   cost: 300
   rate: 2
 - name: つまれたタイヤ
@@ -856,6 +859,7 @@
     ざっそう: 10
     きのえだ: 5
     いし: 2
+  type: さく
   cost: 275
   rate: 2
 - name: リサイクルながぐつ
@@ -1368,6 +1372,8 @@
 - name: メガセロプスのあたま
   bell: 4500
   type: かせき
+- name: アーケロンのあたま
+  bell: 4000
 - name: ステゴサウルスのしっぽ
   bell: 4000
   type: かせき
@@ -1392,18 +1398,57 @@
 - name: モルフォチョウ
   bell: 4000
   type: むし
-- name: オオイワナ
-  bell: 3800
+- name: アンキロサウルスのあたま
+  bell: 3500
+  type: かせき
+- name: アーケロンのからだ
+  bell: 3500
+- name: イグアナドンのからだ
+  bell: 3500
+- name: イグアノドンのからだ
+  bell: 3500
 - name: ダンクルオステウス
   bell: 3500
   type: かせき
+- name: タイ
+  bell: 3000
+- name: スピノサウルスのしっぽ
+  bell: 2500
+  type: かせき
+- name: スミロドンのあたま
+  bell: 2500
+  type: かせき
+- name: タマムシ
+  bell: 2400
+- name: スミロドンのからだ
+  bell: 2000
+  type: かせき
+- name: サメのはのかせき
+  bell: 1000
+  type: かせき
+- name: ジンメンカメムシ
+  bell: 1000
+  レックス: 1500
+  type: むし
+- name: シャコガイ
+  bell: 900
+- name: スターなあみ
+  bell: 625
+  price: 2500
+- name: スポットライト
+  bell: 525
+  price: 2100
+- name: サンゴ
+  bell: 500
+- name: クラッカー
+  price: 100
+- name: オオイワナ
+  bell: 3800
 - name: パラサウロロフスのあたま
   bell: 3500
 - name: メガセロプスのからだ
   bell: 3500
   type: かせき
-- name: タイ
-  bell: 3000
 - name: ディノニクスのあたま
   bell: 3000
   type: かせき
@@ -1429,12 +1474,6 @@
 - name: カラスアゲハ
   bell: 2500
   type: むし
-- name: スピノサウルスのしっぽ
-  bell: 2500
-  type: かせき
-- name: スミロドンのあたま
-  bell: 2500
-  type: かせき
 - name: ハチ
   bell: 2500
 - name: パラサウロロフスのしっぽ
@@ -1442,13 +1481,8 @@
 - name: マンモスのからだ
   bell: 2500
   type: かせき
-- name: タマムシ
-  bell: 2400
 - name: オフタルモサウルスのからだ
   bell: 2000
-- name: スミロドンのからだ
-  bell: 2000
-  type: かせき
 - name: ユーステノプテロン
   bell: 2000
   type: かせき
@@ -1460,6 +1494,9 @@
 - name: ミロクンミンギア
   bell: 1500
   type: かせき
+- name: ぼうえんきょう
+  price: 5600
+  bell: 1400
 - name: ポップコーンマシン
   bell: 1225
   price: 4900
@@ -1467,13 +1504,6 @@
   bell: 1075
 - name: オオゴマダラ
   bell: 1000
-- name: サメのはのかせき
-  bell: 1000
-  type: かせき
-- name: ジンメンカメムシ
-  bell: 1000
-  レックス: 1500
-  type: むし
 - name: ヤドカリ
   bell: 1000
   レックス: 1500
@@ -1481,8 +1511,6 @@
 - name: ヤマメ
   bell: 1000
   type: さかな
-- name: シャコガイ
-  bell: 900
 - name: スロップシンク
   bell: 875
 - name: ヒラメ
@@ -1503,17 +1531,14 @@
 - name: カラフルなパチンコ
   bell: 625
   price: 2500
-- name: スターなあみ
-  bell: 625
-  price: 2500
 - name: ゾウさんジョウロ
   bell: 625
   price: 2500
 - name: パインざいフローリング
   bell: 625
-- name: スポットライト
-  bell: 525
+- name: まきストーブ
   price: 2100
+  bell: 525
 - name: ブルーのモロッカンタイルゆか
   bell: 525
   price: 2100
@@ -1526,8 +1551,6 @@
 - name: オレンジ
   bell: 500
   type: くだもの
-- name: サンゴ
-  bell: 500
 - name: ミノカサゴ
   bell: 500
   type: さかな
@@ -1576,6 +1599,8 @@
 - name: ムカデ
   bell: 300
   type: むし
+- name: たけのこ
+  bell: 250
 - name: カタツムリ
   bell: 250
   type: むし
@@ -1586,64 +1611,18 @@
 - name: ヤシのみ
   bell: 250
   type: くだもの
-- name: ギンガムチェックのシャツ
-  bell: 240
-- name: ギンヤンマ
-  bell: 230
-  type: むし
-- name: サカナのたまご
-  bell: 200
-- name: ザリガニ
-  bell: 200
-- name: ショウリョウバッタ
-  bell: 200
-  type: むし
-- name: サンドダラー
-  bell: 120
-- name: タカラガイ
-  bell: 60
-- name: ダンボール
-  bell: 30
-- name: タイヤ
-  bell: 10
-- name: スターなステッキ
-  bell: -1
-  material:
-    おおきなほしのかけら: 1
-    ほしのかけら: 3
-- name: エスプレッソマシン
-  bells: -1
-  price: 5600
-- name: クラッカー
-  price: 100
-- name: アーケロンのあたま
-  bell: 4000
-- name: アンキロサウルスのあたま
-  bell: 3500
-  type: かせき
-- name: アーケロンのからだ
-  bell: 3500
-- name: イグアナドンのからだ
-  bell: 3500
-- name: イグアノドンのからだ
-  bell: 3500
-- name: ぼうえんきょう
-  price: 5600
-  bell: 1400
-- name: まきストーブ
-  price: 2100
-  bell: 525
-- name: ふとん
-  price: 1600
-  bell: 400
-- name: たけのこ
-  bell: 250
+- name: ぶんごうセット
+  bell: 162
+  price: 650
 - name: ほしのかけら
   bell: -1
 - name: せんめんだい
   price: 3300
 - name: にだんベッド
   price: 5000
+- name: エスプレッソマシン
+  bells: -1
+  price: 5600
 - name: きんこうせき
   bell: 10000
 - name: Tレックスのあたま
@@ -1695,6 +1674,9 @@
 - name: おにんぎょう
   bell: 400
   price: 1600
+- name: ふとん
+  price: 1600
+  bell: 400
 - name: てっこうせき
   bell: 375
 - name: アオスジアゲハ
@@ -1710,8 +1692,13 @@
   bell: 240
 - name: ウグイ
   bell: 240
+- name: ギンガムチェックのシャツ
+  bell: 240
 - name: ボーダーTシャツ
   bell: 240
+- name: ギンヤンマ
+  bell: 230
+  type: むし
 - name: パイプイス
   price: 920
   bell: 230
@@ -1758,6 +1745,13 @@
   bell: 200
 - name: キクのクッションのDIYレシピ
   bell: 200
+- name: サカナのたまご
+  bell: 200
+- name: ザリガニ
+  bell: 200
+- name: ショウリョウバッタ
+  bell: 200
+  type: むし
 - name: フナムシ
   bell: 200
 - name: あおいみずたまのかさ
@@ -1769,9 +1763,6 @@
   bell: 180
 - name: ポリタンク
   bell: 170
-- name: ぶんごうセット
-  bell: 162
-  price: 650
 - name: パーティーのかざり
   bell: 162
 - name: マッスルタンクトップ
@@ -1796,6 +1787,8 @@
 - name: カメムシ
   bell: 120
   type: むし
+- name: サンドダラー
+  bell: 120
 - name: かせき
   bell: 100
   type: かせき
@@ -1861,6 +1854,8 @@
   bell: 60
 - name: やわらかいもくざい
   bell: 60
+- name: タカラガイ
+  bell: 60
 - name: あかいアネモネ
   bell: 40
   type: はな
@@ -1905,6 +1900,8 @@
   type: はな
 - name: ピンクのラッピングペーパー
   bell: 40
+- name: ダンボール
+  bell: 30
 - name: あきカン
   bell: 10
 - name: あなあきソックス
@@ -1912,6 +1909,8 @@
 - name: ざっそう
   bell: 10
 - name: ながぐつ
+  bell: 10
+- name: タイヤ
   bell: 10
 - name: きのえだ
   bell: 5
@@ -1957,6 +1956,11 @@
 - name: ウォータービュー
   bell: -1
   price: 1900
+- name: スターなステッキ
+  bell: -1
+  material:
+    おおきなほしのかけら: 1
+    ほしのかけら: 3
 - name: ノームのおきもの
   bell: -1
   price: 1900
@@ -1966,3 +1970,9 @@
     あかいヒヤシンス: 4
     きいろいヒヤシンス: 2
     しろいヒヤシンス: 2
+- name: TOYなロケット
+  bell: -1
+  price: 5900
+- name: サーバー
+  bell: -1
+  price: 100000
