@@ -1377,6 +1377,9 @@
 - name: モルフォチョウ
   bell: 4000
   type: むし
+- name: ダンクルオステウス
+  bell: 3500
+  type: かせき
 - name: パラサウロロフスのあたま
   bell: 3500
 - name: メガセロプスのからだ
@@ -1412,12 +1415,11 @@
 - name: ユーステノプテロン
   bell: 2000
   type: かせき
+- name: みしらぬネコのかばん
+  bell: 2000
 - name: ハンミョウ
   bell: 1500
 - name: ミロクンミンギア
-  bell: 1500
-  type: かせき
-- name: ジュラマイア
   bell: 1500
   type: かせき
 - name: ポップコーンマシン
@@ -1488,6 +1490,8 @@
 - name: ヤシのみ
   bell: 250
   type: くだもの
+- name: したてやのクーポン
+  bell: 250
 - name: ボーダーTシャツ
   bell: 240
 - name: パイプイス
@@ -1551,9 +1555,6 @@
 - name: スピノサウルスのあたま
   bell: 4000
   type: かせき
-- name: ダンクルオステウス
-  bell: 3500
-  type: かせき
 - name: タイ
   bell: 3000
 - name: スピノサウルスのしっぽ
@@ -1566,6 +1567,9 @@
   bell: 2400
 - name: スミロドンのからだ
   bell: 2000
+  type: かせき
+- name: ジュラマイア
+  bell: 1500
   type: かせき
 - name: サメのはのかせき
   bell: 1000
