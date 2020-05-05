@@ -12,6 +12,15 @@
   price: 400
   cost: 25
   rate: 4
+- name: サイロ
+  bell: 13920
+  material:
+    てっこうせき: 12
+    かたいもくざい: 6
+    ねんど: 12
+    いし: 12
+  cost: 6960
+  rate: 2
 - name: アイアンウッドベッド
   bell: 9900
   material:
@@ -886,15 +895,6 @@
     タイヤ: 1
   cost: 10
   rate: 2
-- name: サイロ
-  bell: 13820
-  material:
-    てっこうせき: 12
-    かたいもくざい: 6
-    ねんど: 12
-    いし: 12
-  cost: 6960
-  rate: 1.985632183908046
 - name: アイアンウッドDIYテーブル
   bell: 8520
   material:
