@@ -313,6 +313,12 @@
     もくざい: 15
   cost: 900
   rate: 2
+- name: ログハウスのかべ
+  bell: 1800
+  material:
+    かたいもくざい: 15
+  cost: 900
+  rate: 2
 - name: アネモネのせんぷうき
   bell: 1740
   material:
@@ -1139,12 +1145,6 @@
     いし: 12
   cost: 900
   rate: -0.0011111111111111111
-- name: ログハウスのかべ
-  bell: -1
-  material:
-    かたいもくざい: 15
-  cost: 900
-  rate: -0.0011111111111111111
 - name: つみきテーブル
   bell: -1
   material:
@@ -1429,6 +1429,8 @@
   bell: 1000
   レックス: 1500
   type: むし
+- name: シャコガイ
+  bell: 900
 - name: スロップシンク
   bell: 875
 - name: スターなあみ
@@ -1437,8 +1439,29 @@
 - name: ゾウさんジョウロ
   bell: 625
   price: 2500
+- name: スポットライト
+  bell: 525
+  price: 2100
 - name: サンゴ
   bell: 500
+- name: スズキ
+  bell: 400
+  type: さかな
+- name: スライムランプ
+  bell: 375
+  price: 1500
+- name: ゴマダラカミキリ
+  bell: 350
+  type: むし
+- name: コイ
+  bell: 300
+  type: さかな
+- name: ゴールドクレスト
+  bell: 250
+- name: サカナのたまご
+  bell: 200
+- name: ザリガニ
+  bell: 200
 - name: クラッカー
   price: 100
 - name: アーケロンのあたま
@@ -1459,6 +1482,9 @@
 - name: メガセロプスのからだ
   bell: 3500
   type: かせき
+- name: たい
+  bell: 3000
+  type: さかな
 - name: ディノニクスのあたま
   bell: 3000
   type: かせき
@@ -1526,13 +1552,8 @@
 - name: ヤマメ
   bell: 1000
   type: さかな
-- name: シャコガイ
-  bell: 900
 - name: ヒラメ
   bell: 800
-- name: けけのロケンロール
-  bell: 800
-  type: おんがく
 - name: ホラガイ
   bell: 700
 - name: ボックスソファ
@@ -1554,9 +1575,6 @@
 - name: まきストーブ
   price: 2100
   bell: 525
-- name: スポットライト
-  bell: 525
-  price: 2100
 - name: ブルーのモロッカンタイルゆか
   bell: 525
   price: 2100
@@ -1583,26 +1601,14 @@
     しろいバラ: 2
 - name: ネコぐるま
   bell: 475
-- name: スズキ
-  bell: 400
-  type: さかな
 - name: ドジョウ
   bell: 400
 - name: ブラックバス
   bell: 400
-- name: スライムランプ
-  bell: 375
-  price: 1500
-- name: ゴマダラカミキリ
-  bell: 350
-  type: むし
 - name: プロテインシェイカー
   price: 1400
   bell: 350
 - name: カレイ
-  bell: 300
-  type: さかな
-- name: コイ
   bell: 300
   type: さかな
 - name: ナシのき
@@ -1617,16 +1623,18 @@
 - name: ムカデ
   bell: 300
   type: むし
+- name: たけのこ
+  bell: 250
 - name: カタツムリ
   bell: 250
   type: むし
-- name: ゴールドクレスト
-  bell: 250
 - name: ダンゴムシ
   bell: 250
 - name: ヤシのみ
   bell: 250
   type: くだもの
+- name: ギンガムチェックのシャツ
+  bell: 240
 - name: ぶんごうセット
   bell: 162
   price: 650
@@ -1648,9 +1656,6 @@
 - name: Tレックスのしっぽ
   bell: 5000
   type: かせき
-- name: たい
-  bell: 3000
-  type: さかな
 - name: おサカナのステッキ
   bell: 1500
 - name: だんろ
@@ -1675,6 +1680,9 @@
 - name: TOYなオーディオ
   bell: 800
   price: 3200
+- name: けけのロケンロール
+  bell: 800
+  type: おんがく
 - name: おサカナつりざお
   bell: 625
 - name: えいしゃき
@@ -1699,8 +1707,6 @@
   bell: 300
 - name: したてやのクーポン
   bell: 250
-- name: たけのこ
-  bell: 250
 - name: うでカバーつきエプロン
   bell: 240
 - name: こうようじゅ
@@ -1709,8 +1715,6 @@
 - name: アゲハチョウ
   bell: 240
 - name: ウグイ
-  bell: 240
-- name: ギンガムチェックのシャツ
   bell: 240
 - name: ボーダーTシャツ
   bell: 240
@@ -1762,10 +1766,6 @@
 - name: オイカワ
   bell: 200
 - name: キクのクッションのDIYレシピ
-  bell: 200
-- name: サカナのたまご
-  bell: 200
-- name: ザリガニ
   bell: 200
 - name: ショウリョウバッタ
   bell: 200
