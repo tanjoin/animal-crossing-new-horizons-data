@@ -20,13 +20,16 @@
 
       <div class="btn-group btn-group-toggle mb-3" data-toggle="buttons">
         <label class="btn btn-secondary active">
-          <input type="radio" onclick="search();" name="options" id="option1" autocomplete="off" checked> 名称&素材
+          <input type="radio" onclick="search();" name="options" id="option1" autocomplete="off" checked> 名称&素材&タイプ
         </label>
         <label class="btn btn-secondary">
           <input type="radio" onclick="search();" name="options" id="option2" autocomplete="off"> 名称
         </label>
         <label class="btn btn-secondary">
           <input type="radio" onclick="search();" name="options" id="option3" autocomplete="off"> 素材
+        </label>
+        <label class="btn btn-secondary">
+          <input type="radio" onclick="search();" name="options" id="option4" autocomplete="off"> タイプ
         </label>
       </div>
 
@@ -41,6 +44,9 @@
             <th scope="col" id="name-default" class="sort-default" style="cursor: pointer;" onclick="sortNameDown();">名称</th>
             <th scope="col" id="name-up" class="sort-custom" style="cursor: pointer; display: none;" onclick="sortNameDown();">名称<i class="fas fa-arrow-up"></i></th>
             <th scope="col" id="name-down" class="sort-custom" style="cursor: pointer; display: none;" onclick="sortNameUp();">名称<i class="fas fa-arrow-down"></i></th>
+            <th scope="col" id="type-default" class="sort-default" style="cursor: pointer;" onclick="sortTypeDown();">タイプ</th>
+            <th scope="col" id="type-up" class="sort-custom" style="cursor: pointer; display: none;" onclick="sortTypeDown();">タイプ<i class="fas fa-arrow-up"></i></th>
+            <th scope="col" id="type-down" class="sort-custom" style="cursor: pointer; display: none;" onclick="sortTypeUp();">タイプ<i class="fas fa-arrow-down"></i></th>
             <th scope="col" id="bell-default" class="sort-default" style="cursor: pointer;" onclick="sortBellDown();">売値</th>
             <th scope="col" id="bell-up" class="sort-custom" style="cursor: pointer; display: none;" onclick="sortBellDown();">売値<i class="fas fa-arrow-up"></i></th>
             <th scope="col" id="bell-down" class="sort-custom" style="cursor: pointer; display: none;" onclick="sortBellUp();">売値<i class="fas fa-arrow-down"></i></th>
@@ -81,6 +87,7 @@
         let option1 = document.getElementById('option1');
         let option2 = document.getElementById('option2');
         let option3 = document.getElementById('option3');
+        let option4 = document.getElementById('option4');
         dataarea.innerHTML = '';
         var text;
         if (element) {
@@ -98,6 +105,9 @@
           if (option1.checked) {
             if (element.name.includes(text)) {
               return true;
+            }
+            if (element.type && element.type.includes(text)) {
+              return true;s
             }
             if (element.material) {
               let textmaterial = [];
@@ -117,6 +127,12 @@
                 textmaterial.push(key + '：' + element.material[key]);
               }
               return textmaterial.join('、').includes(text);
+            } else {
+              return false;
+            }
+          } else if (option4.checked) {
+            if (element.type) {
+              return element.type.includes(text);
             } else {
               return false;
             }
@@ -145,6 +161,14 @@
         document.getElementById('name-down').style.display = 'none';
         document.getElementById('name-up').style.display = '';
         jsonData.sort(compareNameUp);
+        search();
+      };
+      var sortTypeUp = () => {
+        resetTableHeader();
+        document.getElementById('type-default').style.display = 'none';
+        document.getElementById('type-down').style.display = 'none';
+        document.getElementById('type-up').style.display = '';
+        jsonData.sort(compareTypeUp);
         search();
       };
       var sortBellUp = () => {
@@ -197,6 +221,14 @@
         jsonData.sort(compareNameDown);
         search();
       };
+      var sortTypeDown = () => {
+        resetTableHeader();
+        document.getElementById('type-default').style.display = 'none';
+        document.getElementById('type-up').style.display = 'none';
+        document.getElementById('type-down').style.display = '';
+        jsonData.sort(compareTypeDown);
+        search();
+      }
       var sortBellDown = () => {
         resetTableHeader();
         document.getElementById('bell-default').style.display = 'none';
@@ -241,6 +273,9 @@
       // 比較(上昇)
       var compareNameUp = (a, b) => {
         return compareUp(a.name, b.name);
+      }
+      var compareTypeUp = (a, b) => {
+        return compareUp(a.type, b.type);
       }
       var compareBellUp = (a, b) => {
         return compareUp(a.bell, b.bell);
@@ -290,6 +325,9 @@
       var compareNameDown = (a, b) => {
         return compareDown(a.name, b.name);
       }
+      var compareTypeDown = (a, b) => {
+        return compareDown(a.type, a.type);
+      };
       var compareBellDown = (a, b) => {
         return compareDown(a.bell, b.bell);
       }
@@ -346,6 +384,7 @@
         let tr = document.createElement('tr');
         tr.appendChild(createTh(index + 1));
         tr.appendChild(createTd(element.name));
+        tr.appendChild(createTd(element.type));
         tr.appendChild(createTd(element.bell));
         tr.appendChild(createTd(element.cost));
         tr.appendChild(createTd(Math.round(element.rate * 1000) / 1000));
