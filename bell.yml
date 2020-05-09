@@ -1341,6 +1341,9 @@
 - name: リュウグウノツカイ
   bell: 9000
   type: さかな
+- name: タランチュラ
+  bell: 8000
+  レックス: 12000
 - name: ブラキオサウルスのあたま
   bell: 6000
   type: かせき
@@ -1362,10 +1365,10 @@
 - name: ディメトロドンのからだ
   bell: 5000
   type: かせき
-- name: ブラキオサウルスのこし
+- name: トリケラトプスのからだ
   bell: 5000
   type: かせき
-- name: トリケラトプスのからだ
+- name: ブラキオサウルスのこし
   bell: 5000
   type: かせき
 - name: ディプロドクスのこし
@@ -1434,6 +1437,8 @@
 - name: マンモスのからだ
   bell: 2500
   type: かせき
+- name: タマムシ
+  bell: 2400
 - name: ユーステノプテロン
   bell: 2000
   type: かせき
@@ -1442,15 +1447,9 @@
 - name: ミロクンミンギア
   bell: 1500
   type: かせき
-- name: しそちょう
-  bell: 1300
-  type: かせき
 - name: ポップコーンマシン
   bell: 1225
   price: 4900
-- name: ウンコのかせき
-  bell: 1100
-  type: かせき
 - name: ダブルソファ
   bell: 1075
 - name: ポータブルレコードプレーヤー
@@ -1581,6 +1580,8 @@
 - name: ピンクのツツジのなえ
   bell: 70
   レイジ: 280
+- name: タカラガイ
+  bell: 60
 - name: ピンクのラッピングペーパー
   bell: 40
 - name: ダンボール
@@ -1589,9 +1590,6 @@
   price: 420
 - name: スマホケースリメイクキット
   bell: 9000
-- name: タランチュラ
-  bell: 8000
-  レックス: 12000
 - name: ケツァルコアトルスのうよく
   bell: 5000
   type: かせき
@@ -1601,21 +1599,30 @@
 - name: ステゴサウルスのからだ
   bell: 4500
   type: かせき
-- name: オオイワナ
-  bell: 3800
+- name: カラスアゲハ
+  bell: 2500
+  type: むし
 - name: カラフルなつりざお
+  bell: 625
+  price: 2500
+- name: カラフルなスコップ
   bell: 625
   price: 2500
 - name: カラフルなパチンコ
   bell: 625
   price: 2500
-- name: キャンピングカーのもけいA
-  bell: 375
-- name: キクのクッションのDIYレシピ
-  bell: 200
-- name: ガ
-  bell: 130
+- name: カタツムリ
+  bell: 250
   type: むし
+- name: カメムシ
+  bell: 120
+  type: むし
+- name: オレンジのチューリップ
+  bell: 80
+  type: はな
+- name: オレンジのアネモネ
+  bell: 40
+  type: はな
 - name: エスプレッソマシン
   bells: -1
   price: 5600
@@ -1643,6 +1650,8 @@
 - name: スピノサウルスのあたま
   bell: 4000
   type: かせき
+- name: オオイワナ
+  bell: 3800
 - name: アンキロサウルスのあたま
   bell: 3500
   type: かせき
@@ -1655,23 +1664,21 @@
 - name: たい
   bell: 3000
   type: さかな
+- name: スピノサウルスのからだ
+  bell: 3000
+  type: かせき
 - name: タイ
   bell: 3000
 - name: にほんとう
   bell: 2500
 - name: オフタルモサウルスのあたま
   bell: 2500
-- name: カラスアゲハ
-  bell: 2500
-  type: むし
 - name: スピノサウルスのしっぽ
   bell: 2500
   type: かせき
 - name: スミロドンのあたま
   bell: 2500
   type: かせき
-- name: タマムシ
-  bell: 2400
 - name: DJブース
   bell: 2325
 - name: みしらぬネコのかばん
@@ -1702,6 +1709,9 @@
 - name: さんようちゅう
   bell: 1300
   type: かせき
+- name: しそちょう
+  bell: 1300
+  type: かせき
 - name: かべかけカジキ
   bell: 1250
   price: 5000
@@ -1721,6 +1731,9 @@
   bell: 1100
 - name: アンモナイト
   bell: 1100
+- name: ウンコのかせき
+  bell: 1100
+  type: かせき
 - name: クライミングウォール
   bell: 1075
 - name: TOYなウォールクロック
@@ -1764,9 +1777,6 @@
   bell: 675
 - name: おサカナつりざお
   bell: 625
-- name: カラフルなスコップ
-  bell: 625
-  price: 2500
 - name: スターなあみ
   bell: 625
   price: 2500
@@ -1830,6 +1840,8 @@
   bell: 375
 - name: アカデミーのペナント
   bell: 375
+- name: キャンピングカーのもけいA
+  bell: 375
 - name: キャンピングカーのもけいB
   bell: 375
 - name: スライムランプ
@@ -1861,9 +1873,6 @@
   bell: 250
 - name: たけのこ
   bell: 250
-- name: カタツムリ
-  bell: 250
-  type: むし
 - name: ゴールドクレスト
   bell: 250
 - name: うでカバーつきエプロン
@@ -1921,6 +1930,8 @@
   bell: 200
 - name: オイカワ
   bell: 200
+- name: キクのクッションのDIYレシピ
+  bell: 200
 - name: サカナのたまご
   bell: 200
 - name: ザリガニ
@@ -1947,11 +1958,11 @@
   bell: 150
 - name: もじキャップ
   bell: 140
+- name: ガ
+  bell: 130
+  type: むし
 - name: ざぶとん
   bell: 125
-- name: カメムシ
-  bell: 120
-  type: むし
 - name: サンドダラー
   bell: 120
 - name: かせき
@@ -1968,9 +1979,6 @@
 - name: はなのティッシュケース
   bell: 88
 - name: あおいアネモネ
-  bell: 80
-  type: はな
-- name: オレンジのチューリップ
   bell: 80
   type: はな
 - name: サカナのかさ
@@ -2012,8 +2020,6 @@
   bell: 60
 - name: やわらかいもくざい
   bell: 60
-- name: タカラガイ
-  bell: 60
 - name: あかいアネモネ
   bell: 40
   type: はな
@@ -2051,9 +2057,6 @@
   bell: 40
   type: はな
 - name: しろいヒヤシンス
-  bell: 40
-  type: はな
-- name: オレンジのアネモネ
   bell: 40
   type: はな
 - name: クラッカー
