@@ -1250,6 +1250,12 @@
     もくざい: 4
   cost: 5240
   rate: 0.4732824427480916
+- name: オレンジのぼうし
+  bell: 1000
+  material:
+    オレンジ: 5
+  cost: 2500
+  rate: 0.4
 - name: おくすり
   bell: 100
   material:
