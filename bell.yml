@@ -1359,6 +1359,9 @@
 - name: トリケラトプスのあたま
   bell: 5500
   type: かせき
+- name: ブラキオサウルスのしっぽ
+  bell: 5500
+  type: かせき
 - name: メガロケロスのみぎはんしん
   bell: 5500
   type: かせき
@@ -1378,6 +1381,9 @@
   bell: 5000
   type: かせき
 - name: ディプロドクスのこし
+  bell: 4500
+  type: かせき
+- name: トリケラトプスのしっぽ
   bell: 4500
   type: かせき
 - name: フタバサウルスのからだ
@@ -1473,6 +1479,9 @@
 - name: ヤマメ
   bell: 1000
   type: さかな
+- name: あしあとのかせき
+  bell: 1000
+  type: かせき
 - name: ヒラメ
   bell: 800
 - name: ファッションケース
@@ -1666,6 +1675,7 @@
   bell: 5000
 - name: アーケロンのあたま
   bell: 4000
+  type: かせき
 - name: イグアナドンのあたま
   bell: 4000
   type: かせき
@@ -1674,6 +1684,7 @@
   type: かせき
 - name: アーケロンのからだ
   bell: 3500
+  type: かせき
 - name: イグアナドンのからだ
   bell: 3500
 - name: イグアノドンのからだ
@@ -1749,6 +1760,7 @@
   bell: 1100
 - name: アンモナイト
   bell: 1100
+  type: かせき
 - name: ウンコのかせき
   bell: 1100
   type: かせき
