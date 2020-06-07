@@ -1548,6 +1548,9 @@
 - name: ベルつきアラームクロック
   bell: 300
   price: 1200
+- name: ホタル
+  bell: 300
+  type: むし
 - name: ホネガイ
   bell: 300
   type: かい
@@ -1556,9 +1559,8 @@
   type: むし
 - name: ロッドスタンド
   bell: 300
-- name: ホタル
-  bell: 300
-  type: むし
+- name: ダンゴムシ
+  bell: 250
 - name: ティーセット
   bell: 250
 - name: ヤシのみ
@@ -1638,26 +1640,6 @@
   type: かせき
 - name: オオイワナ
   bell: 3800
-- name: オフタルモサウルスのあたま
-  bell: 2500
-  type: かせき
-- name: カラスアゲハ
-  bell: 2500
-  type: むし
-- name: オフタルモサウルスのからだ
-  bell: 2000
-  type: かせき
-- name: キュートなDIYテーブル
-  price: 7000
-  bell: 1750
-- name: オオゴマダラ
-  bell: 1000
-- name: カラフルなつりざお
-  bell: 625
-  price: 2500
-- name: カラフルなスコップ
-  bell: 625
-  price: 2500
 - name: カラフルなパチンコ
   bell: 625
   price: 2500
@@ -1665,10 +1647,10 @@
   bell: 375
 - name: キャンピングカーのもけいB
   bell: 375
-- name: エフェクターセット
-  bell: 350
-- name: カタツムリ
-  bell: 250
+- name: キクのクッションのDIYレシピ
+  bell: 200
+- name: ガ
+  bell: 130
   type: むし
 - name: エスプレッソマシン
   bells: -1
@@ -1718,6 +1700,12 @@
 - name: アンキロサウルスのしっぽ
   bell: 2500
   type: かせき
+- name: オフタルモサウルスのあたま
+  bell: 2500
+  type: かせき
+- name: カラスアゲハ
+  bell: 2500
+  type: むし
 - name: スピノサウルスのしっぽ
   bell: 2500
   type: かせき
@@ -1733,14 +1721,23 @@
 - name: アノマロカリス
   bell: 2000
   type: かせき
+- name: オフタルモサウルスのからだ
+  bell: 2000
+  type: かせき
 - name: スミロドンのからだ
   bell: 2000
   type: かせき
 - name: てつどうもけい
   bell: 1975
   price: 7900
+- name: キュートなDIYテーブル
+  price: 7000
+  bell: 1750
 - name: おサカナのステッキ
   bell: 1500
+- name: たけ
+  bell: 1500
+  type: き
 - name: ジュラマイア
   bell: 1500
   type: かせき
@@ -1789,6 +1786,8 @@
 - name: あしあとのかせき
   bell: 1000
   type: かせき
+- name: オオゴマダラ
+  bell: 1000
 - name: サメのはのかせき
   bell: 1000
   type: かせき
@@ -1826,6 +1825,12 @@
   bell: 675
 - name: おサカナつりざお
   bell: 625
+- name: カラフルなつりざお
+  bell: 625
+  price: 2500
+- name: カラフルなスコップ
+  bell: 625
+  price: 2500
 - name: スターなあみ
   bell: 625
   price: 2500
@@ -1894,6 +1899,8 @@
   price: 1500
 - name: TOYなチェア
   bell: 350
+- name: エフェクターセット
+  bell: 350
 - name: ゴマダラカミキリ
   bell: 350
   type: むし
@@ -1916,9 +1923,10 @@
   bell: 250
 - name: たけのこ
   bell: 250
-- name: ゴールドクレスト
+- name: カタツムリ
   bell: 250
-- name: ダンゴムシ
+  type: むし
+- name: ゴールドクレスト
   bell: 250
 - name: うでカバーつきエプロン
   bell: 240
@@ -1975,8 +1983,6 @@
   bell: 200
 - name: オイカワ
   bell: 200
-- name: キクのクッションのDIYレシピ
-  bell: 200
 - name: サカナのたまご
   bell: 200
 - name: ザリガニ
@@ -2003,9 +2009,6 @@
   bell: 150
 - name: もじキャップ
   bell: 140
-- name: ガ
-  bell: 130
-  type: むし
 - name: ざぶとん
   bell: 125
 - name: カメムシ
